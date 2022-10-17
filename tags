@@ -1,0 +1,946 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	440;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	443;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	446;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	449;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	453;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	455;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	457;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	461;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	464;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	467;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	472;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	475;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	478;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	483;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	486;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	489;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	492;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	425;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	428;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	431;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	434;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	438;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	440;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	442;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	446;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	449;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	452;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	457;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	460;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	463;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	468;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	471;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	474;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	477;"	d	file:
+AddTail	co_routine.cc	/^void inline AddTail(TLink* apLink,TNode* ap){$/;"	f	signature:(TLink* apLink,TNode* ap)
+AddTimeout	co_routine.cc	/^int AddTimeout(stTimeout_t* apTimeout,stTimeoutItem_t* apItem,unsigned long long allNow){$/;"	f	signature:(stTimeout_t* apTimeout,stTimeoutItem_t* apItem,unsigned long long allNow)
+AddTimeout	co_routine_inner.h	/^void AddTimeout(stTimeout_t* apTimeout,stTimeoutItem_t* apItem,uint64_t allNow);$/;"	p	signature:(stTimeout_t* apTimeout,stTimeoutItem_t* apItem,uint64_t allNow)
+AllocEpoll	co_routine.cc	/^stCoEpoll_t* AllocEpoll(){$/;"	f	signature:()
+AllocEpoll	co_routine_inner.h	/^struct stCoEpoll_t* AllocEpoll();$/;"	p	signature:()
+AllocTimeout	co_routine.cc	/^stTimeout_t* AllocTimeout(int iSize){$/;"	f	signature:(int iSize)
+AllocTimeout	co_routine_inner.h	/^stTimeout_t* AllocTimeout(int size);$/;"	p	signature:(int size)
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/admin\/JKYi-libco\/build$/;"	m
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/local\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/admin\/JKYi-libco$/;"	m
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	108;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	123;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	138;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	153;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	161;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	166;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	176;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	179;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	185;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	19;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	200;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	214;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	224;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	242;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	251;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	260;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	275;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	288;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	306;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	309;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	312;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	42;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	56;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	62;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	71;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	101;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	123;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	13;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	153;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	161;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	166;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	173;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	176;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	194;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	19;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	222;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	240;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	249;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	258;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	273;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	291;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	297;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	42;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	50;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	56;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	62;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	80;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	94;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	256;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	254;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	103;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	110;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	131;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	146;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	154;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	162;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	168;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	189;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	204;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	215;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	226;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	245;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	253;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	263;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	268;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	277;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	282;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	291;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	296;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	43;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	51;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	58;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	64;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	83;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	88;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	96;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	103;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	110;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	116;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	125;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	140;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	146;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	154;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	162;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	168;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	183;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	198;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	210;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	212;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	224;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	243;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	24;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	251;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	261;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	266;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	276;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	281;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	73;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	83;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	88;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	96;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	104;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	111;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	117;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	126;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	132;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	141;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	163;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	169;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	190;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	205;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	217;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	227;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	246;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	254;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	264;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	269;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	278;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	283;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	292;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	297;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	84;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	89;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	97;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	111;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	126;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	132;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	141;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	147;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	155;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	163;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	169;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	16;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	184;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	199;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	215;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	225;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	252;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	262;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	267;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	277;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	282;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	59;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	74;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	89;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	97;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	105;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	112;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	118;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	127;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	142;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	148;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	157;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	191;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	206;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	220;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	231;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	234;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	247;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	255;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	265;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	270;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	279;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	27;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	284;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	293;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	298;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	29;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	53;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	67;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	76;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	90;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	98;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	118;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	133;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	148;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	185;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	200;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	218;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	232;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	245;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	253;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	263;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	268;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	278;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	27;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	283;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	53;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	67;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	76;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	113;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	128;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	197;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	238;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	33;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	143;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	191;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	236;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d	file:
+CO_ROUTINE_SPECIFIC	co_routine_specific.h	10;"	d
+CXX_STD	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	558;"	d	file:
+CXX_STD	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	560;"	d	file:
+C_DIALECT	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	575;"	d	file:
+C_DIALECT	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	577;"	d	file:
+C_DIALECT	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	580;"	d	file:
+C_DIALECT	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	582;"	d	file:
+C_DIALECT	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	584;"	d	file:
+CoLock	co_comm.cc	/^void clsCoMutex::CoLock(){$/;"	f	class:clsCoMutex	signature:()
+CoLock	co_comm.h	/^    void CoLock();$/;"	p	class:clsCoMutex	access:public	signature:()
+CoRoutineFunc	co_routine.cc	/^static int CoRoutineFunc(stCoRoutine_t* co,void *){$/;"	f	file:	signature:(stCoRoutine_t* co,void *)
+CoUnLock	co_comm.cc	/^void clsCoMutex::CoUnLock(){$/;"	f	class:clsCoMutex	signature:()
+CoUnLock	co_comm.h	/^    void CoUnLock();$/;"	p	class:clsCoMutex	access:public	signature:()
+Consumer	tests/example_cond.cc	/^void* Consumer(void* arg){$/;"	f	signature:(void* arg)
+DEC	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	496;"	d	file:
+DEC	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	481;"	d	file:
+EAX	coctx.cc	6;"	d	file:
+ECX	coctx.cc	7;"	d	file:
+EIP	coctx.cc	5;"	d	file:
+EPOLLERR	co_epoll.h	/^    EPOLLERR = 0x008,$/;"	e	enum:EPOLL_EVENTS
+EPOLLHUP	co_epoll.h	/^    EPOLLHUP = 0x010,$/;"	e	enum:EPOLL_EVENTS
+EPOLLIN	co_epoll.h	/^    EPOLLIN = 0x001,$/;"	e	enum:EPOLL_EVENTS
+EPOLLOUT	co_epoll.h	/^    EPOLLOUT = 0x004,$/;"	e	enum:EPOLL_EVENTS
+EPOLLPRI	co_epoll.h	/^    EPOLLPRI = 0x002,$/;"	e	enum:EPOLL_EVENTS
+EPOLLRDNORM	co_epoll.h	/^    EPOLLRDNORM = 0x40,$/;"	e	enum:EPOLL_EVENTS
+EPOLLWRNORM	co_epoll.h	/^    EPOLLWRNORM = 0x004,$/;"	e	enum:EPOLL_EVENTS
+EPOLL_CTL_ADD	co_epoll.h	47;"	d
+EPOLL_CTL_DEL	co_epoll.h	48;"	d
+EPOLL_CTL_MOD	co_epoll.h	49;"	d
+EPOLL_EVENTS	co_epoll.h	/^enum EPOLL_EVENTS{$/;"	g
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+ESP	coctx.cc	4;"	d	file:
+EpollEvent2Poll	co_routine.cc	/^static uint32_t EpollEvent2Poll(uint32_t events){$/;"	f	file:	signature:(uint32_t events)
+FreeEpoll	co_routine.cc	/^void FreeEpoll(stCoEpoll_t* ctx){$/;"	f	signature:(stCoEpoll_t* ctx)
+FreeEpoll	co_routine_inner.h	/^void FreeEpoll(stCoEpoll_t* ctx);$/;"	p	signature:(stCoEpoll_t* ctx)
+FreeTimeout	co_routine.cc	/^void FreeTimeout(stTimeout_t* apTimeout){$/;"	f	signature:(stTimeout_t* apTimeout)
+FreeTimeout	co_routine_inner.h	/^void FreeTimeout(stTimeout_t* apTimeout);$/;"	p	signature:(stTimeout_t* apTimeout)
+GetCurrCo	co_routine.cc	/^stCoRoutine_t* GetCurrCo(stCoRoutineEnv_t* env){$/;"	f	signature:(stCoRoutineEnv_t* env)
+GetCurrThreadCo	co_routine.cc	/^stCoRoutine_t* GetCurrThreadCo(){$/;"	f	signature:()
+GetCurrThreadCo	co_routine_inner.h	/^stCoRoutine_t* GetCurrThreadCo(); $/;"	p	signature:()
+GetPid	co_hook_sys_call.cc	/^static inline pid_t GetPid(){$/;"	f	file:	signature:()
+GetPid	co_routine.cc	/^static pid_t GetPid(){$/;"	f	file:	signature:()
+GetTickMS	co_routine.cc	/^static unsigned long long GetTickMS(){$/;"	f	file:	signature:()
+HEX	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	507;"	d	file:
+HEX	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	492;"	d	file:
+HOOK_SYS_FUNC	co_hook_sys_call.cc	130;"	d	file:
+ID_VOID_MAIN	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	6;"	d	file:
+Join	co_routine.cc	/^void inline Join(TLink* apLink,TLink* apOther){$/;"	f	signature:(TLink* apLink,TLink* apOther)
+OnCoroutineEvent	co_routine.cc	/^void OnCoroutineEvent(stTimeoutItem_t* ap){$/;"	f	signature:(stTimeoutItem_t* ap)
+OnPollPreparePfn	co_routine.cc	/^void OnPollPreparePfn(stTimeoutItem_t* ap,struct epoll_event& e,stTimeoutItemLink_t* active){$/;"	f	signature:(stTimeoutItem_t* ap,struct epoll_event& e,stTimeoutItemLink_t* active)
+OnPollProcessEvent	co_routine.cc	/^void OnPollProcessEvent(stTimeoutItem_t* ap){$/;"	f	signature:(stTimeoutItem_t* ap)
+OnSignalProcessEvent	co_routine.cc	/^static void OnSignalProcessEvent(stTimeoutItem_t* ap){$/;"	f	file:	signature:(stTimeoutItem_t* ap)
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	337;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	340;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	343;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	346;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	349;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	352;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	355;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	358;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	361;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	364;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	367;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	370;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	373;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	376;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	379;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	382;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	385;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	388;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	391;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	394;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	397;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	400;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	403;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	406;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	409;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	413;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	416;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	419;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	422;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	425;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	429;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	322;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	325;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	331;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	334;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	337;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	340;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	343;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	346;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	349;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	352;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	355;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	358;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	361;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	364;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	367;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	370;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	373;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	376;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	379;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	382;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	385;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	388;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	391;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	394;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	398;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	401;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	404;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	407;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	410;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	414;"	d	file:
+PollEvent2Epoll	co_routine.cc	/^static uint32_t PollEvent2Epoll(short events){$/;"	f	file:	signature:(short events)
+PopHead	co_routine.cc	/^void inline PopHead(TLink* apLink){$/;"	f	signature:(TLink* apLink)
+Producer	tests/example_cond.cc	/^void* Producer(void* arg){$/;"	f	signature:(void* arg)
+R12	coctx.cc	16;"	d	file:
+R13	coctx.cc	17;"	d	file:
+R14	coctx.cc	18;"	d	file:
+R15	coctx.cc	19;"	d	file:
+R8	coctx.cc	22;"	d	file:
+R9	coctx.cc	23;"	d	file:
+RBP	coctx.cc	15;"	d	file:
+RBX	coctx.cc	11;"	d	file:
+RCX	coctx.cc	21;"	d	file:
+RDI	coctx.cc	12;"	d	file:
+RDX	coctx.cc	20;"	d	file:
+RIP	coctx.cc	10;"	d	file:
+RM	build/Makefile	/^RM = \/usr\/local\/bin\/cmake -E remove -f$/;"	m
+RSI	coctx.cc	13;"	d	file:
+RSP	coctx.cc	9;"	d	file:
+RemoveFromLink	co_routine.cc	/^void RemoveFromLink(T* ap){$/;"	f	signature:(T* ap)
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	187;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	202;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	21;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	181;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	196;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	194;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	209;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	37;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	188;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	203;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	195;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	210;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	189;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	204;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+STRINGIFY	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	333;"	d	file:
+STRINGIFY	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	318;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	332;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	317;"	d	file:
+SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
+SetEpoll	co_routine.cc	/^void SetEpoll(stCoRoutineEnv_t* env,stCoEpoll_t* ev){$/;"	f	signature:(stCoRoutineEnv_t* env,stCoEpoll_t* ev)
+SetEpoll	co_routine_inner.h	/^void SetEpoll(stCoRoutineEnv_t* env,stCoEpoll_t* ev);$/;"	p	signature:(stCoRoutineEnv_t* env,stCoEpoll_t* ev)
+TakeAllTimeout	co_routine.cc	/^inline void TakeAllTimeout(stTimeout_t* apTimeout,unsigned long long allNow,stTimeoutItemLink_t* apResult){$/;"	f	signature:(stTimeout_t* apTimeout,unsigned long long allNow,stTimeoutItemLink_t* apResult)
+_EPOLL_SIZE	co_routine.cc	/^    static const int _EPOLL_SIZE = 1024 * 10;  \/\/epoll_wait最多可以返回的就绪事件个数$/;"	m	struct:stCoEpoll_t	file:	access:public
+_JKYI_CO_CTX_H_	coctx.h	2;"	d
+_JKYI_LIBCO_COMM_H_	co_comm.h	2;"	d
+_JKYI_LIBCO_COROUTINE_H_	co_routine.h	2;"	d
+_JKYI_LIBCO_COROUTINE_INNER_H_	co_routine_inner.h	78;"	d
+_JKYI_LIBCO_COROUTINE_SPECIFIC_H_	co_routine_specific.h	2;"	d
+_JKYI_LIBCO_CO_EPOLL_H_	co_epoll.h	2;"	d
+__poll	co_hook_sys_call.cc	/^  int __poll(struct pollfd fds[],nfds_t nfds,int timeout){$/;"	f	signature:(struct pollfd fds[],nfds_t nfds,int timeout)
+__poll_pfn_t	co_hook_sys_call.cc	/^typedef int (* __poll_pfn_t)(struct pollfd fds[],nfds_t nfds,int timeout);$/;"	t	file:
+__res_state	co_hook_sys_call.cc	/^   res_state __res_state(){$/;"	f	signature:()
+__res_state_pfn_t	co_hook_sys_call.cc	/^typedef res_state(* __res_state_pfn_t)();$/;"	t	file:
+aSpec	co_routine_inner.h	/^    stCoSpec_t aSpec[1024];$/;"	m	struct:stCoRoutine_t	access:public
+alloc_by_fd	co_hook_sys_call.cc	/^static inline rpchook_t* alloc_by_fd(int fd){$/;"	f	file:	signature:(int fd)
+alloc_idx	co_routine_inner.h	/^    unsigned int alloc_idx; $/;"	m	struct:stShareStack_t	access:public
+arg	co_routine_inner.h	/^    void * arg;$/;"	m	struct:stCoRoutine_t	access:public
+bIsRespNotExist	co_hook_sys_call.cc	/^    unsigned char bIsRespNotExist;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+bTimeout	co_routine.cc	/^    bool bTimeout;\/\/是否$/;"	m	struct:stTimeoutItem_t	file:	access:public
+bVersion	co_hook_sys_call.cc	/^    unsigned char bVersion;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+buffer	co_hook_sys_call.cc	/^    char* buffer;$/;"	m	struct:hostbuf_wrap	file:	access:public
+cEnableSysHook	co_routine_inner.h	/^    char cEnableSysHook; \/\/是否被hook$/;"	m	struct:stCoRoutine_t	access:public
+cEnd	co_routine_inner.h	/^    char cEnd;    \/\/是否已经结束$/;"	m	struct:stCoRoutine_t	access:public
+cIsMain	co_routine_inner.h	/^    char cIsMain; \/\/是否是主协程$/;"	m	struct:stCoRoutine_t	access:public
+cIsShareStack	co_routine_inner.h	/^    char cIsShareStack;  \/\/是否使用共享栈$/;"	m	struct:stCoRoutine_t	access:public
+cStart	co_routine_inner.h	/^    char cStart;  \/\/是否开始运行$/;"	m	struct:stCoRoutine_t	access:public
+close	co_hook_sys_call.cc	/^int close(int fd){$/;"	f	signature:(int fd)
+close_pfn_t	co_hook_sys_call.cc	/^typedef int(* close_pfn_t)(int fd);$/;"	t	file:
+clsCoMutex	co_comm.cc	/^clsCoMutex::clsCoMutex(){$/;"	f	class:clsCoMutex	signature:()
+clsCoMutex	co_comm.h	/^    clsCoMutex();$/;"	p	class:clsCoMutex	access:public	signature:()
+clsCoMutex	co_comm.h	/^class clsCoMutex{$/;"	c
+clsCoMutex::CoLock	co_comm.cc	/^void clsCoMutex::CoLock(){$/;"	f	class:clsCoMutex	signature:()
+clsCoMutex::CoLock	co_comm.h	/^    void CoLock();$/;"	p	class:clsCoMutex	access:public	signature:()
+clsCoMutex::CoUnLock	co_comm.cc	/^void clsCoMutex::CoUnLock(){$/;"	f	class:clsCoMutex	signature:()
+clsCoMutex::CoUnLock	co_comm.h	/^    void CoUnLock();$/;"	p	class:clsCoMutex	access:public	signature:()
+clsCoMutex::clsCoMutex	co_comm.cc	/^clsCoMutex::clsCoMutex(){$/;"	f	class:clsCoMutex	signature:()
+clsCoMutex::clsCoMutex	co_comm.h	/^    clsCoMutex();$/;"	p	class:clsCoMutex	access:public	signature:()
+clsCoMutex::m_iWaitItemCnt	co_comm.h	/^    int m_iWaitItemCnt;$/;"	m	class:clsCoMutex	access:private
+clsCoMutex::m_ptCondSignal	co_comm.h	/^    stCoCond_t* m_ptCondSignal;$/;"	m	class:clsCoMutex	access:private
+clsCoMutex::~clsCoMutex	co_comm.cc	/^clsCoMutex::~clsCoMutex(){$/;"	f	class:clsCoMutex	signature:()
+clsCoMutex::~clsCoMutex	co_comm.h	/^    ~clsCoMutex();$/;"	p	class:clsCoMutex	access:public	signature:()
+clsSmartLock	co_comm.h	/^    clsSmartLock(clsCoMutex* m){$/;"	f	class:clsSmartLock	access:public	signature:(clsCoMutex* m)
+clsSmartLock	co_comm.h	/^class clsSmartLock{$/;"	c
+clsSmartLock::clsSmartLock	co_comm.h	/^    clsSmartLock(clsCoMutex* m){$/;"	f	class:clsSmartLock	access:public	signature:(clsCoMutex* m)
+clsSmartLock::m_ptMutex	co_comm.h	/^    clsCoMutex* m_ptMutex;$/;"	m	class:clsSmartLock	access:private
+clsSmartLock::~clsSmartLock	co_comm.h	/^    ~clsSmartLock(){ m_ptMutex->CoUnLock(); }$/;"	f	class:clsSmartLock	access:public	signature:()
+cnt	co_hook_sys_call.cc	/^    size_t cnt;$/;"	m	struct:stCoSysEnvArr_t	file:	access:public
+co	co_routine.cc	/^    stCoRoutine_t* co;$/;"	m	struct:stHookPThreadSpec_t	file:	access:public
+co_accept	co_hook_sys_call.cc	/^int co_accept(int fd,struct sockaddr* addr,socklen_t* len){$/;"	f	signature:(int fd,struct sockaddr* addr,socklen_t* len)
+co_alloc_sharestack	co_routine.cc	/^stShareStack_t* co_alloc_sharestack(int count,int stack_size){$/;"	f	signature:(int count,int stack_size)
+co_alloc_sharestack	co_routine.h	/^stShareStack_t* co_alloc_sharestack(int iCount,int iStackSize);$/;"	p	signature:(int iCount,int iStackSize)
+co_alloc_stackmem	co_routine.cc	/^stStackMem_t* co_alloc_stackmem(unsigned int stack_size){$/;"	f	signature:(unsigned int stack_size)
+co_cond_alloc	co_routine.cc	/^stCoCond_t* co_cond_alloc(){$/;"	f	signature:()
+co_cond_alloc	co_routine.h	/^stCoCond_t* co_cond_alloc();$/;"	p	signature:()
+co_cond_broadcast	co_routine.cc	/^int co_cond_broadcast(stCoCond_t* si){$/;"	f	signature:(stCoCond_t* si)
+co_cond_broadcast	co_routine.h	/^int co_cond_broadcast(stCoCond_t*);$/;"	p	signature:(stCoCond_t*)
+co_cond_free	co_routine.cc	/^int co_cond_free(stCoCond_t* cc){$/;"	f	signature:(stCoCond_t* cc)
+co_cond_free	co_routine.h	/^int co_cond_free(stCoCond_t* cc);$/;"	p	signature:(stCoCond_t* cc)
+co_cond_pop	co_routine.cc	/^stCoCondItem_t* co_cond_pop(stCoCond_t* link);$/;"	p	file:	signature:(stCoCond_t* link)
+co_cond_pop	co_routine.cc	/^stCoCondItem_t* co_cond_pop(stCoCond_t* link){$/;"	f	signature:(stCoCond_t* link)
+co_cond_signal	co_routine.cc	/^int co_cond_signal(stCoCond_t* si){$/;"	f	signature:(stCoCond_t* si)
+co_cond_signal	co_routine.h	/^int co_cond_signal(stCoCond_t*);$/;"	p	signature:(stCoCond_t*)
+co_cond_timedwait	co_routine.cc	/^int co_cond_timedwait(stCoCond_t* link,int ms){$/;"	f	signature:(stCoCond_t* link,int ms)
+co_cond_timedwait	co_routine.h	/^int co_cond_timedwait(stCoCond_t* ,int timeout_ms);$/;"	p	signature:(stCoCond_t* ,int timeout_ms)
+co_create	co_routine.cc	/^int co_create(stCoRoutine_t** ppco,const stCoRoutineAttr_t* attr,pfn_co_routine_t pfn,void* arg){$/;"	f	signature:(stCoRoutine_t** ppco,const stCoRoutineAttr_t* attr,pfn_co_routine_t pfn,void* arg)
+co_create	co_routine.h	/^int co_create(stCoRoutine_t** co,const stCoRoutineAttr_t* attr,void* (*routine)(void*),void* arg);\/\/创建协程$/;"	p	signature:(stCoRoutine_t** co,const stCoRoutineAttr_t* attr,void* (*routine)(void*),void* arg)
+co_create_env	co_routine.cc	/^struct stCoRoutine_t* co_create_env(stCoRoutineEnv_t* env,const stCoRoutineAttr_t* attr,pfn_co_routine_t pfn,void* arg){$/;"	f	signature:(stCoRoutineEnv_t* env,const stCoRoutineAttr_t* attr,pfn_co_routine_t pfn,void* arg)
+co_disable_hook_sys	co_routine.cc	/^void co_disable_hook_sys(){$/;"	f	signature:()
+co_disable_hook_sys	co_routine.h	/^void co_disable_hook_sys();$/;"	p	signature:()
+co_enable_hook_sys	co_routine.cc	/^void co_enable_hook_sys(){$/;"	f	signature:()
+co_enable_hook_sys	co_routine.h	/^void co_enable_hook_sys();$/;"	p	signature:()
+co_epoll_create	co_epoll.cc	/^int co_epoll_create(int size){$/;"	f	signature:(int size)
+co_epoll_create	co_epoll.h	/^int co_epoll_create(int size);$/;"	p	signature:(int size)
+co_epoll_ctl	co_epoll.cc	/^int co_epoll_ctl(int epfd,int op,int fd,struct epoll_event* event){$/;"	f	signature:(int epfd,int op,int fd,struct epoll_event* event)
+co_epoll_ctl	co_epoll.h	/^int co_epoll_ctl(int epfd,int op,int fd,struct epoll_event*);$/;"	p	signature:(int epfd,int op,int fd,struct epoll_event*)
+co_epoll_res	co_epoll.h	/^struct co_epoll_res{$/;"	s
+co_epoll_res::eventlist	co_epoll.h	/^    struct kevent* eventlist;$/;"	m	struct:co_epoll_res	typeref:struct:co_epoll_res::kevent	access:public
+co_epoll_res::events	co_epoll.h	/^    struct epoll_event* events;$/;"	m	struct:co_epoll_res	typeref:struct:co_epoll_res::epoll_event	access:public
+co_epoll_res::size	co_epoll.h	/^    int size;$/;"	m	struct:co_epoll_res	access:public
+co_epoll_res_alloc	co_epoll.cc	/^struct co_epoll_res* co_epoll_res_alloc(int size){$/;"	f	signature:(int size)
+co_epoll_res_alloc	co_epoll.h	/^struct co_epoll_res* co_epoll_res_alloc(int n);$/;"	p	signature:(int n)
+co_epoll_res_free	co_epoll.cc	/^void co_epoll_res_free(struct co_epoll_res* ptr){$/;"	f	signature:(struct co_epoll_res* ptr)
+co_epoll_res_free	co_epoll.h	/^void co_epoll_res_free(struct co_epoll_res* );$/;"	p	signature:(struct co_epoll_res* )
+co_epoll_res_free	co_epoll.h	/^void co_epoll_res_free(struct co_epoll_res*);$/;"	p	signature:(struct co_epoll_res*)
+co_epoll_wait	co_epoll.cc	/^int co_epoll_wait(int epfd,struct co_epoll_res* events,int maxevents,int timeout){$/;"	f	signature:(int epfd,struct co_epoll_res* events,int maxevents,int timeout)
+co_epoll_wait	co_epoll.h	/^int co_epoll_wait(int epfd,struct co_epoll_res* events,int maxevents,int timeout);$/;"	p	signature:(int epfd,struct co_epoll_res* events,int maxevents,int timeout)
+co_eventloop	co_routine.cc	/^void co_eventloop(stCoEpoll_t* ctx,pfn_co_eventloop_t pfn,void* arg){$/;"	f	signature:(stCoEpoll_t* ctx,pfn_co_eventloop_t pfn,void* arg)
+co_eventloop	co_routine.h	/^void co_eventloop(stCoEpoll_t* ctx,pfn_co_eventloop_t pfn,void* arg);$/;"	p	signature:(stCoEpoll_t* ctx,pfn_co_eventloop_t pfn,void* arg)
+co_free	co_routine.cc	/^void co_free(stCoRoutine_t* co){$/;"	f	signature:(stCoRoutine_t* co)
+co_free	co_routine_inner.h	/^void co_free(stCoRoutine_t* co);$/;"	p	signature:(stCoRoutine_t* co)
+co_get_curr_thread_env	co_routine.cc	/^stCoRoutineEnv_t* co_get_curr_thread_env(){$/;"	f	signature:()
+co_get_curr_thread_env	co_routine_inner.h	/^stCoRoutineEnv_t*   co_get_curr_thread_env(); \/\/返回当前线程的协程调度器$/;"	p	signature:()
+co_get_epoll_ct	co_routine.cc	/^stCoEpoll_t* co_get_epoll_ct(){$/;"	f	signature:()
+co_get_epoll_ct	co_routine.h	/^stCoEpoll_t* co_get_epoll_ct();$/;"	p	signature:()
+co_get_stackmem	co_routine.cc	/^static stStackMem_t* co_get_stackmem(stShareStack_t* share_stack){$/;"	f	file:	signature:(stShareStack_t* share_stack)
+co_gethostbyname	co_hook_sys_call.cc	/^struct hostent* co_gethostbyname(const char* name);$/;"	p	file:	signature:(const char* name)
+co_gethostbyname	co_hook_sys_call.cc	/^struct hostent* co_gethostbyname(const char* name){$/;"	f	signature:(const char* name)
+co_getspecific	co_routine.cc	/^void* co_getspecific(pthread_key_t key){$/;"	f	signature:(pthread_key_t key)
+co_getspecific	co_routine.h	/^void* co_getspecific(pthread_key_t key);$/;"	p	signature:(pthread_key_t key)
+co_getspecific	co_routine_specific.h	/^extern void* co_getspecific(pthread_key_t key);$/;"	p	signature:(pthread_key_t key)
+co_init_curr_thread_env	co_routine.cc	/^void co_init_curr_thread_env(){$/;"	f	signature:()
+co_init_curr_thread_env	co_routine_inner.h	/^void co_init_curr_thread_env(); \/\/对当前所在线程的协程调度器进行初始化$/;"	p	signature:()
+co_is_enable_sys_hook	co_routine.cc	/^bool co_is_enable_sys_hook(){$/;"	f	signature:()
+co_is_enable_sys_hook	co_routine.h	/^bool co_is_enable_sys_hook();$/;"	p	signature:()
+co_log_err	co_routine.cc	/^void co_log_err(const char* fmt,...){$/;"	f	signature:(const char* fmt,...)
+co_log_err	co_routine.h	/^void co_log_err(const char * fmt,...);$/;"	p	signature:(const char * fmt,...)
+co_poll	co_routine.cc	/^int co_poll(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int timeout_ms){$/;"	f	signature:(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int timeout_ms)
+co_poll	co_routine.h	/^int co_poll(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int timeout_ms);$/;"	p	signature:(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int timeout_ms)
+co_poll_inner	co_hook_sys_call.cc	/^extern int co_poll_inner(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int timeout,poll_pfn_t pollfunc);$/;"	p	file:	signature:(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int timeout,poll_pfn_t pollfunc)
+co_poll_inner	co_routine.cc	/^int co_poll_inner(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int timeout,poll_pfn_t pollfunc){$/;"	f	signature:(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int timeout,poll_pfn_t pollfunc)
+co_release	co_routine.cc	/^void co_release(stCoRoutine_t* co){$/;"	f	signature:(stCoRoutine_t* co)
+co_release	co_routine.h	/^void co_release(stCoRoutine_t* co);$/;"	p	signature:(stCoRoutine_t* co)
+co_resume	co_routine.cc	/^void co_resume(stCoRoutine_t* co){$/;"	f	signature:(stCoRoutine_t* co)
+co_resume	co_routine.h	/^void co_resume(stCoRoutine_t* co); \/\/调度该协程$/;"	p	signature:(stCoRoutine_t* co)
+co_self	co_routine.cc	/^stCoRoutine_t* co_self(){$/;"	f	signature:()
+co_self	co_routine.h	/^stCoRoutine_t* co_self();$/;"	p	signature:()
+co_set_env_list	co_hook_sys_call.cc	/^void co_set_env_list(const char* name[],size_t cnt){$/;"	f	signature:(const char* name[],size_t cnt)
+co_set_env_list	co_routine.h	/^void co_set_env_list(const char* name[],size_t cnt);$/;"	p	signature:(const char* name[],size_t cnt)
+co_setspecific	co_routine.cc	/^int co_setspecific(pthread_key_t key,const void* value){$/;"	f	signature:(pthread_key_t key,const void* value)
+co_setspecific	co_routine.h	/^int co_setspecific(pthread_key_t key,const void * value);$/;"	p	signature:(pthread_key_t key,const void * value)
+co_setspecific	co_routine_specific.h	/^extern int co_setspecific(pthread_key_t key,const void * value);$/;"	p	signature:(pthread_key_t key,const void * value)
+co_swap	co_routine.cc	/^void co_swap(stCoRoutine_t* curr,stCoRoutine_t* pending_co);$/;"	p	file:	signature:(stCoRoutine_t* curr,stCoRoutine_t* pending_co)
+co_swap	co_routine.cc	/^void co_swap(stCoRoutine_t* curr,stCoRoutine_t* pending_co){$/;"	f	signature:(stCoRoutine_t* curr,stCoRoutine_t* pending_co)
+co_sysenv_comp	co_hook_sys_call.cc	/^static int co_sysenv_comp(const void* a,const void* b){$/;"	f	file:	signature:(const void* a,const void* b)
+co_yield	co_routine.cc	/^void co_yield(stCoRoutine_t* co){$/;"	f	signature:(stCoRoutine_t* co)
+co_yield	co_routine.h	/^void co_yield(stCoRoutine_t* co); \/\/切换回主协程执行$/;"	p	signature:(stCoRoutine_t* co)
+co_yield_ct	co_routine.cc	/^void co_yield_ct(){$/;"	f	signature:()
+co_yield_ct	co_routine.h	/^void co_yield_ct();$/;"	p	signature:()
+co_yield_env	co_routine.cc	/^void co_yield_env(stCoRoutineEnv_t* env){$/;"	f	signature:(stCoRoutineEnv_t* env)
+co_yield_env	co_routine_inner.h	/^void co_yield_env(stCoRoutineEnv_t* env);$/;"	p	signature:(stCoRoutineEnv_t* env)
+coctx_init	coctx.cc	/^int coctx_init(coctx_t* ctx){$/;"	f	signature:(coctx_t* ctx)
+coctx_init	coctx.h	/^int coctx_init(coctx_t* ctx);$/;"	p	signature:(coctx_t* ctx)
+coctx_make	coctx.cc	/^int coctx_make(coctx* ctx,coctx_pfn_t pfn,const void * s,const void * s1){$/;"	f	signature:(coctx* ctx,coctx_pfn_t pfn,const void * s,const void * s1)
+coctx_make	coctx.cc	/^int coctx_make(coctx_t * ctx,coctx_pfn_t pfn,const void * s,const void * s1){$/;"	f	signature:(coctx_t * ctx,coctx_pfn_t pfn,const void * s,const void * s1)
+coctx_make	coctx.h	/^int coctx_make(coctx_t* ctx,coctx_pfn_t pfn,const void * s,const void * s1);$/;"	p	signature:(coctx_t* ctx,coctx_pfn_t pfn,const void * s,const void * s1)
+coctx_param_t	coctx.h	/^struct coctx_param_t{$/;"	s
+coctx_param_t::s1	coctx.h	/^    const void * s1;$/;"	m	struct:coctx_param_t	access:public
+coctx_param_t::s2	coctx.h	/^    const void * s2;$/;"	m	struct:coctx_param_t	access:public
+coctx_pfn_t	coctx.h	/^typedef void * (*coctx_pfn_t) (void * s,void *s2);$/;"	t
+coctx_swap	coctx_swap.S	/^coctx_swap:$/;"	l
+coctx_t	coctx.h	/^struct coctx_t{$/;"	s
+coctx_t::regs	coctx.h	/^    void * regs[8];$/;"	m	struct:coctx_t	access:public
+coctx_t::ss_size	coctx.h	/^    size_t ss_size; \/\/栈的大小$/;"	m	struct:coctx_t	access:public
+coctx_t::ss_sp	coctx.h	/^    char * ss_sp;$/;"	m	struct:coctx_t	access:public
+cond	tests/example_cond.cc	/^    stCoCond_t* cond; \/\/条件变量$/;"	m	struct:stEnv_t	file:	access:public
+connect	co_hook_sys_call.cc	/^int connect(int fd,const struct sockaddr* address,socklen_t address_len){$/;"	f	signature:(int fd,const struct sockaddr* address,socklen_t address_len)
+connect_pfn_t	co_hook_sys_call.cc	/^typedef int(* connect_pfn_t)(int socket,const struct sockaddr* address,socklen_t address_len);$/;"	t	file:
+const	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
+count	co_routine_inner.h	/^    int count; \/\/栈帧的数目$/;"	m	struct:stShareStack_t	access:public
+counter	co_routine.cc	/^static unsigned long long counter(void){$/;"	f	file:	signature:(void)
+ctx	co_routine_inner.h	/^    coctx_t ctx; \/\/协程的上下文$/;"	m	struct:stCoRoutine_t	access:public
+data	co_epoll.h	/^    epoll_data_t data;$/;"	m	struct:epoll_event	access:public
+data	co_hook_sys_call.cc	/^    stCoSysEnv_t* data;$/;"	m	struct:stCoSysEnvArr_t	file:	access:public
+dest	co_hook_sys_call.cc	/^    struct sockaddr dest;$/;"	m	struct:rpchook_t	typeref:struct:rpchook_t::sockaddr	file:	access:public
+diff_ms	co_hook_sys_call.cc	/^static inline ll64_t diff_ms(struct timeval& begin,struct timeval& end){$/;"	f	file:	signature:(struct timeval& begin,struct timeval& end)
+domain	co_hook_sys_call.cc	/^    int domain; \/\/AF_LOCAL,AF_INET$/;"	m	struct:rpchook_t	file:	access:public
+dup_co_sysenv_arr	co_hook_sys_call.cc	/^static stCoSysEnvArr_t* dup_co_sysenv_arr(stCoSysEnvArr_t* arr){$/;"	f	file:	signature:(stCoSysEnvArr_t* arr)
+eMaxTimeout	co_routine.cc	/^        eMaxTimeout = 40 * 1000 \/\/40s$/;"	e	enum:stTimeoutItem_t::__anon3	file:
+env	co_routine_inner.h	/^    stCoRoutineEnv_t* env;  \/\/该协程归那一个调度器管$/;"	m	struct:stCoRoutine_t	access:public
+epoll_data	co_epoll.h	/^typedef union epoll_data{$/;"	u
+epoll_data::fd	co_epoll.h	/^    int fd;$/;"	m	union:epoll_data	access:public
+epoll_data::ptr	co_epoll.h	/^    void* ptr;$/;"	m	union:epoll_data	access:public
+epoll_data::u32	co_epoll.h	/^    uint32_t u32;$/;"	m	union:epoll_data	access:public
+epoll_data::u64	co_epoll.h	/^    uint64_t u64;$/;"	m	union:epoll_data	access:public
+epoll_data_t	co_epoll.h	/^}epoll_data_t;$/;"	t	typeref:union:epoll_data
+epoll_event	co_epoll.h	/^struct epoll_event{$/;"	s
+epoll_event::data	co_epoll.h	/^    epoll_data_t data;$/;"	m	struct:epoll_event	access:public
+epoll_event::events	co_epoll.h	/^    uint32_t events;$/;"	m	struct:epoll_event	access:public
+eventlist	co_epoll.h	/^    struct kevent* eventlist;$/;"	m	struct:co_epoll_res	typeref:struct:co_epoll_res::kevent	access:public
+events	co_epoll.h	/^    struct epoll_event* events;$/;"	m	struct:co_epoll_res	typeref:struct:co_epoll_res::epoll_event	access:public
+events	co_epoll.h	/^    uint32_t events;$/;"	m	struct:epoll_event	access:public
+fcntl	co_hook_sys_call.cc	/^int fcntl(int fildes,int cmd,...){$/;"	f	signature:(int fildes,int cmd,...)
+fcntl_pfn_t	co_hook_sys_call.cc	/^typedef int (* fcntl_pfn_t)(int fildes,int cmd,...);$/;"	t	file:
+fd	co_epoll.h	/^    int fd;$/;"	m	union:epoll_data	access:public
+fds	co_routine.cc	/^    struct pollfd* fds;$/;"	m	struct:stPoll_t	typeref:struct:stPoll_t::pollfd	file:	access:public
+features	build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"$/;"	v
+features	build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v
+free_by_fd	co_hook_sys_call.cc	/^static inline void free_by_fd(int fd){$/;"	f	file:	signature:(int fd)
+gCoEnvPerThread	co_routine.cc	/^static __thread stCoRoutineEnv_t* gCoEnvPerThread = NULL;$/;"	v	file:
+g_co_sysenv	co_hook_sys_call.cc	/^static stCoSysEnvArr_t g_co_sysenv = {0};$/;"	v	file:
+g_rpchook_socket_fd	co_hook_sys_call.cc	/^static rpchook_t* g_rpchook_socket_fd[102400] = {0};$/;"	v	file:
+g_sys___res_state_func	co_hook_sys_call.cc	/^static __res_state_pfn_t g_sys___res_state_func = (__res_state_pfn_t)dlsym(RTLD_NEXT,"__res_state");$/;"	v	file:
+g_sys_close_func	co_hook_sys_call.cc	/^static close_pfn_t g_sys_close_func = (close_pfn_t)dlsym(RTLD_NEXT,"close");$/;"	v	file:
+g_sys_connect_func	co_hook_sys_call.cc	/^static connect_pfn_t g_sys_connect_func = (connect_pfn_t)dlsym(RTLD_NEXT,"connect");$/;"	v	file:
+g_sys_fcntl_func	co_hook_sys_call.cc	/^static fcntl_pfn_t g_sys_fcntl_func = (fcntl_pfn_t)dlsym(RTLD_NEXT,"fcntl");$/;"	v	file:
+g_sys_getenv_func	co_hook_sys_call.cc	/^static getenv_pfn_t g_sys_getenv_func = (getenv_pfn_t)dlsym(RTLD_NEXT,"getenv");$/;"	v	file:
+g_sys_gethostbyname_func	co_hook_sys_call.cc	/^static gethostbyname_pfn_t g_sys_gethostbyname_func = (gethostbyname_pfn_t)dlsym(RTLD_NEXT,"gethostbyname");$/;"	v	file:
+g_sys_gethostbyname_r_func	co_hook_sys_call.cc	/^static gethostbyname_r_pfn_t g_sys_gethostbyname_r_func = (gethostbyname_r_pfn_t)dlsym(RTLD_NEXT,"gethostbyname_r");$/;"	v	file:
+g_sys_poll_func	co_hook_sys_call.cc	/^static poll_pfn_t g_sys_poll_func = (poll_pfn_t)dlsym(RTLD_NEXT,"poll");$/;"	v	file:
+g_sys_read_func	co_hook_sys_call.cc	/^static read_pfn_t g_sys_read_func = (read_pfn_t)dlsym(RTLD_NEXT,"read");$/;"	v	file:
+g_sys_recv_func	co_hook_sys_call.cc	/^static recv_pfn_t g_sys_recv_func = (recv_pfn_t)dlsym(RTLD_NEXT,"recv");$/;"	v	file:
+g_sys_recvfrom_func	co_hook_sys_call.cc	/^static recvfrom_pfn_t g_sys_recvfrom_func = (recvfrom_pfn_t)dlsym(RTLD_NEXT,"recvfrom");$/;"	v	file:
+g_sys_send_func	co_hook_sys_call.cc	/^static send_pfn_t g_sys_send_func = (send_pfn_t)dlsym(RTLD_NEXT,"send");$/;"	v	file:
+g_sys_sendto_func	co_hook_sys_call.cc	/^static sendto_pfn_t g_sys_sendto_func = (sendto_pfn_t)dlsym(RTLD_NEXT,"sendto");$/;"	v	file:
+g_sys_setenv_func	co_hook_sys_call.cc	/^static setenv_pfn_t g_sys_setenv_func = (setenv_pfn_t)dlsym(RTLD_NEXT,"setenv");$/;"	v	file:
+g_sys_setsockopt_func	co_hook_sys_call.cc	/^static setsockopt_pfn_t g_sys_setsockopt_func = (setsockopt_pfn_t)dlsym(RTLD_NEXT,"setsockopt");$/;"	v	file:
+g_sys_socket_func	co_hook_sys_call.cc	/^static socket_pfn_t g_sys_socket_func = (socket_pfn_t)dlsym(RTLD_NEXT,"socket");$/;"	v	file:
+g_sys_unsetenv_func	co_hook_sys_call.cc	/^static unsetenv_pfn_t g_sys_unsetenv_func = (unsetenv_pfn_t)dlsym(RTLD_NEXT,"unsetenv");$/;"	v	file:
+g_sys_write_func	co_hook_sys_call.cc	/^static write_pfn_t g_sys_write_func = (write_pfn_t)dlsym(RTLD_NEXT,"write");$/;"	v	file:
+getCpuKhz	co_routine.cc	/^static unsigned long long getCpuKhz(){$/;"	f	file:	signature:()
+get_by_fd	co_hook_sys_call.cc	/^static inline rpchook_t* get_by_fd(int fd){$/;"	f	file:	signature:(int fd)
+get_tick_count	co_hook_sys_call.cc	/^static inline unsigned long long get_tick_count(){$/;"	f	file:	signature:()
+getenv	co_hook_sys_call.cc	/^char* getenv(const char* n){$/;"	f	signature:(const char* n)
+getenv_pfn_t	co_hook_sys_call.cc	/^typedef char* (* getenv_pfn_t)(const char* name);$/;"	t	file:
+gethostbyname	co_hook_sys_call.cc	/^struct hostent* gethostbyname(const char* name){$/;"	f	signature:(const char* name)
+gethostbyname_pfn_t	co_hook_sys_call.cc	/^typedef hostent* (* gethostbyname_pfn_t)(const char* name);$/;"	t	file:
+gethostbyname_r_pfn_t	co_hook_sys_call.cc	/^typedef int (* gethostbyname_r_pfn_t)(const char * __restrict name,struct hostent * __restrict ret, char * __restrict buf, size_t buflen,$/;"	t	file:
+hPort	co_hook_sys_call.cc	/^    unsigned short hPort;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+head	co_routine.cc	/^    stCoCondItem_t* head;$/;"	m	struct:stCoCond_t	file:	access:public
+head	co_routine.cc	/^    stTimeoutItem_t* head;$/;"	m	struct:stTimeoutItemLink_t	file:	access:public
+host	co_hook_sys_call.cc	/^    struct hostent host;$/;"	m	struct:hostbuf_wrap	typeref:struct:hostbuf_wrap::hostent	file:	access:public
+host_errno	co_hook_sys_call.cc	/^    int host_errno;$/;"	m	struct:hostbuf_wrap	file:	access:public
+hostbuf_wrap	co_hook_sys_call.cc	/^struct hostbuf_wrap{$/;"	s	file:
+hostbuf_wrap::buffer	co_hook_sys_call.cc	/^    char* buffer;$/;"	m	struct:hostbuf_wrap	file:	access:public
+hostbuf_wrap::host	co_hook_sys_call.cc	/^    struct hostent host;$/;"	m	struct:hostbuf_wrap	typeref:struct:hostbuf_wrap::hostent	file:	access:public
+hostbuf_wrap::host_errno	co_hook_sys_call.cc	/^    int host_errno;$/;"	m	struct:hostbuf_wrap	file:	access:public
+hostbuf_wrap::iBufferSize	co_hook_sys_call.cc	/^    size_t iBufferSize;$/;"	m	struct:hostbuf_wrap	file:	access:public
+iAllEventDetach	co_routine.cc	/^    int iAllEventDetach;    \/\/表示该对象是否已经被处理过$/;"	m	struct:stPoll_t	file:	access:public
+iBodyLen	co_hook_sys_call.cc	/^    unsigned int iBodyLen;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+iBufferSize	co_hook_sys_call.cc	/^    size_t iBufferSize;$/;"	m	struct:hostbuf_wrap	file:	access:public
+iCallStackSize	co_routine.cc	/^    int iCallStackSize; \/\/当前正在运行的协程在调用栈的位置$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+iEpollFd	co_routine.cc	/^    int iEpollFd;  \/\/epoll的文件描述符$/;"	m	struct:stCoEpoll_t	file:	access:public
+iEpollFd	co_routine.cc	/^    int iEpollFd;$/;"	m	struct:stPoll_t	file:	access:public
+iIP	co_hook_sys_call.cc	/^    struct in_addr iIP;$/;"	m	struct:rpchook_connagent_head_t	typeref:struct:rpchook_connagent_head_t::in_addr	file:	access:public
+iItemSize	co_routine.cc	/^    int iItemSize; \/\/默认是60 * 1000$/;"	m	struct:stTimeout_t	file:	access:public
+iOssAttrID	co_hook_sys_call.cc	/^    unsigned int iOssAttrID;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+iRaiseCnt	co_routine.cc	/^    int iRaiseCnt; \/\/prepare函数的调用次数$/;"	m	struct:stPoll_t	file:	access:public
+id	tests/example_cond.cc	/^    int id;$/;"	m	struct:stTask_t	file:	access:public
+info_arch	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_cray	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v
+info_cray	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v
+info_language_dialect_default	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_dialect_default =$/;"	v
+info_language_dialect_default	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v
+info_platform	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_simulate	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate_version	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v
+info_simulate_version	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v
+info_version	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+info_version_internal	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v
+info_version_internal	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v
+kEIP	coctx.cc	/^ kEIP = 0,$/;"	e	enum:__anon1	file:
+kESP	coctx.cc	/^ kESP = 7,$/;"	e	enum:__anon1	file:
+kRDI	coctx.cc	/^    kRDI = 7,$/;"	e	enum:__anon2	file:
+kRETAddr	coctx.cc	/^    kRETAddr = 9,$/;"	e	enum:__anon2	file:
+kRSI	coctx.cc	/^    kRSI = 8,$/;"	e	enum:__anon2	file:
+kRSP	coctx.cc	/^    kRSP = 13$/;"	e	enum:__anon2	file:
+ll64_t	co_hook_sys_call.cc	/^typedef long long ll64_t;$/;"	t	file:
+llStartIdx	co_routine.cc	/^    long long llStartIdx;\/\/时间轮的指向$/;"	m	struct:stTimeout_t	file:	access:public
+localtime_r_pfn_t	co_hook_sys_call.cc	/^typedef struct tm* (* localtime_r_pfn_t)(const time_t* timep,struct tm* result);$/;"	t	typeref:struct:localtime_r_pfn_t	file:
+loop	tests/example_thread.cc	/^int loop(void* ){$/;"	f	signature:(void* )
+m_iWaitItemCnt	co_comm.h	/^    int m_iWaitItemCnt;$/;"	m	class:clsCoMutex	access:private
+m_ptCondSignal	co_comm.h	/^    stCoCond_t* m_ptCondSignal;$/;"	m	class:clsCoMutex	access:private
+m_ptMutex	co_comm.h	/^    clsCoMutex* m_ptMutex;$/;"	m	class:clsSmartLock	access:private
+main	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	build/CMakeFiles/feature_tests.c	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f	signature:(int argc, char** argv)
+main	build/CMakeFiles/feature_tests.cxx	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f	signature:(int argc, char** argv)
+main	tests/example_cond.cc	/^int main(){$/;"	f	signature:()
+main	tests/example_thread.cc	/^int main(int argc,char** argv){$/;"	f	signature:(int argc,char** argv)
+name	co_hook_sys_call.cc	/^    char* name;$/;"	m	struct:stCoSysEnv_t	file:	access:public
+nfds	co_routine.cc	/^    nfds_t nfds; \/\/unsigned long int$/;"	m	struct:stPoll_t	file:	access:public
+occupy_co	co_routine.cc	/^    stCoRoutine_t* occupy_co; \/\/以前使用共享栈的协程$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+occupy_co	co_routine_inner.h	/^    stCoRoutine_t* occupy_co; \/\/当前正在使用该栈帧的协程$/;"	m	struct:stStackMem_t	access:public
+onPreparePfn_t	co_routine.cc	/^typedef void (* onPreparePfn_t)(stTimeoutItem_t*,struct epoll_event& ev,$/;"	t	file:
+onProcessPfn_t	co_routine.cc	/^typedef void (* onProcessPfn_t)(stTimeoutItem_t*);$/;"	t	file:
+pArg	co_routine.cc	/^    void* pArg;\/\/以上两个函数的参数$/;"	m	struct:stTimeoutItem_t	file:	access:public
+pCallStack	co_routine.cc	/^    stCoRoutine_t* pCallStack[128];$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+pEpoll	co_routine.cc	/^    stCoEpoll_t* pEpoll; \/\/协程调度器$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+pItems	co_routine.cc	/^    stTimeoutItemLink_t* pItems;$/;"	m	struct:stTimeout_t	file:	access:public
+pLink	co_routine.cc	/^    stCoCond_t* pLink;$/;"	m	struct:stCoCondItem_t	file:	access:public
+pLink	co_routine.cc	/^    stTimeoutItemLink_t* pLink; \/\/属于哪一条链表$/;"	m	struct:stTimeoutItem_t	file:	access:public
+pNext	co_routine.cc	/^    stCoCondItem_t* pNext;$/;"	m	struct:stCoCondItem_t	file:	access:public
+pNext	co_routine.cc	/^    stTimeoutItem_t* pNext;$/;"	m	struct:stTimeoutItem_t	file:	access:public
+pPoll	co_routine.cc	/^    stPoll_t* pPoll;$/;"	m	struct:stPollItem_t	file:	access:public
+pPollItems	co_routine.cc	/^    stPollItem_t* pPollItems;$/;"	m	struct:stPoll_t	file:	access:public
+pPrev	co_routine.cc	/^    stCoCondItem_t* pPrev;$/;"	m	struct:stCoCondItem_t	file:	access:public
+pPrev	co_routine.cc	/^    stTimeoutItem_t* pPrev;$/;"	m	struct:stTimeoutItem_t	file:	access:public
+pSelf	co_routine.cc	/^    struct pollfd* pSelf;$/;"	m	struct:stPollItem_t	typeref:struct:stPollItem_t::pollfd	file:	access:public
+pTimeout	co_routine.cc	/^    struct stTimeout_t* pTimeout;\/\/时间轮$/;"	m	struct:stCoEpoll_t	typeref:struct:stCoEpoll_t::stTimeout_t	file:	access:public
+pending_co	co_routine.cc	/^    stCoRoutine_t* pending_co;\/\/记录要抢占对于共享栈的协程$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+pfn	co_routine_inner.h	/^    pfn_co_routine_t pfn;$/;"	m	struct:stCoRoutine_t	access:public
+pfnCoRoutineFunc_t	co_routine_inner.h	/^typedef void (*pfnCoRoutineFunc_t)();$/;"	t
+pfnPrepare	co_routine.cc	/^    onPreparePfn_t pfnPrepare; \/\/预处理函数$/;"	m	struct:stTimeoutItem_t	file:	access:public
+pfnProcess	co_routine.cc	/^    onProcessPfn_t pfnProcess; \/\/处理函数$/;"	m	struct:stTimeoutItem_t	file:	access:public
+pfn_co_eventloop_t	co_routine.h	/^typedef int (* pfn_co_eventloop_t) (void *);$/;"	t
+pfn_co_routine_t	co_routine.h	/^typedef void* (* pfn_co_routine_t)(void*);$/;"	t
+poll	co_hook_sys_call.cc	/^int poll(struct pollfd fds[],nfds_t nfds,int timeout){$/;"	f	signature:(struct pollfd fds[],nfds_t nfds,int timeout)
+poll_pfn_t	co_hook_sys_call.cc	/^typedef int (* poll_pfn_t)(struct pollfd fds[],nfds_t nfds,int timeout);$/;"	t	file:
+poll_pfn_t	co_routine.cc	/^typedef int (* poll_pfn_t)(struct pollfd fds[],nfds_t nfds,int timeout);$/;"	t	file:
+pstActiveList	co_routine.cc	/^    struct stTimeoutItemLink_t* pstActiveList;  \/\/用于存放epoll_wait返回的就绪事件和定时器的超时事件$/;"	m	struct:stCoEpoll_t	typeref:struct:stCoEpoll_t::stTimeoutItemLink_t	file:	access:public
+pstTimeoutList	co_routine.cc	/^    struct stTimeoutItemLink_t* pstTimeoutList; \/\/临时存放定时器的超时事件$/;"	m	struct:stCoEpoll_t	typeref:struct:stCoEpoll_t::stTimeoutItemLink_t	file:	access:public
+pthread_getspecific_pfn_t	co_hook_sys_call.cc	/^typedef void* (* pthread_getspecific_pfn_t)(pthread_key_t key);$/;"	t	file:
+pthread_setspecific_pfn_t	co_hook_sys_call.cc	/^typedef int (* pthread_setspecific_pfn_t)(pthread_key_t key,const void* value);$/;"	t	file:
+ptr	co_epoll.h	/^    void* ptr;$/;"	m	union:epoll_data	access:public
+pvEnv	co_routine_inner.h	/^    void* pvEnv; \/\/用于保存程序系统环境变量的指针$/;"	m	struct:stCoRoutine_t	access:public
+qnxnto	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
+qnxnto	build/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
+read	co_hook_sys_call.cc	/^ssize_t read(int fd,void* buf,size_t nbyte){$/;"	f	signature:(int fd,void* buf,size_t nbyte)
+read_pfn_t	co_hook_sys_call.cc	/^typedef ssize_t (* read_pfn_t)(int fildes,void* buf,size_t nbyte);$/;"	t	file:
+read_timeout	co_hook_sys_call.cc	/^    struct timeval read_timeout;$/;"	m	struct:rpchook_t	typeref:struct:rpchook_t::timeval	file:	access:public
+recv	co_hook_sys_call.cc	/^ssize_t recv(int socket,void* buffer,size_t length,int flags){$/;"	f	signature:(int socket,void* buffer,size_t length,int flags)
+recv_pfn_t	co_hook_sys_call.cc	/^typedef ssize_t (* recv_pfn_t)(int socket,void* message,size_t length,int flags);$/;"	t	file:
+recvfrom	co_hook_sys_call.cc	/^ssize_t recvfrom(int socket,void* buffer,size_t length,int flags,struct sockaddr* address,socklen_t address_len){$/;"	f	signature:(int socket,void* buffer,size_t length,int flags,struct sockaddr* address,socklen_t address_len)
+recvfrom_pfn_t	co_hook_sys_call.cc	/^typedef ssize_t (* recvfrom_pfn_t)(int socket,void* message,size_t length,int flags,struct sockaddr* address,socklen_t address_len);$/;"	t	file:
+regs	coctx.h	/^    void * regs[8];$/;"	m	struct:coctx_t	access:public
+res_state_wrap	co_hook_sys_call.cc	/^struct res_state_wrap{$/;"	s	file:
+res_state_wrap::state	co_hook_sys_call.cc	/^    struct __res_state state;$/;"	m	struct:res_state_wrap	typeref:struct:res_state_wrap::__res_state	file:	access:public
+result	co_routine.cc	/^    co_epoll_res* result; \/\/epoll返回的结果存储在这里$/;"	m	struct:stCoEpoll_t	file:	access:public
+routine_func	tests/example_thread.cc	/^static void* routine_func(void* arg){$/;"	f	file:	signature:(void* arg)
+rpchook_connagent_head_t	co_hook_sys_call.cc	/^struct rpchook_connagent_head_t{$/;"	s	file:
+rpchook_connagent_head_t::bIsRespNotExist	co_hook_sys_call.cc	/^    unsigned char bIsRespNotExist;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+rpchook_connagent_head_t::bVersion	co_hook_sys_call.cc	/^    unsigned char bVersion;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+rpchook_connagent_head_t::hPort	co_hook_sys_call.cc	/^    unsigned short hPort;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+rpchook_connagent_head_t::iBodyLen	co_hook_sys_call.cc	/^    unsigned int iBodyLen;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+rpchook_connagent_head_t::iIP	co_hook_sys_call.cc	/^    struct in_addr iIP;$/;"	m	struct:rpchook_connagent_head_t	typeref:struct:rpchook_connagent_head_t::in_addr	file:	access:public
+rpchook_connagent_head_t::iOssAttrID	co_hook_sys_call.cc	/^    unsigned int iOssAttrID;$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+rpchook_connagent_head_t::sReserved	co_hook_sys_call.cc	/^    unsigned char sReserved[6];$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+rpchook_t	co_hook_sys_call.cc	/^struct rpchook_t{$/;"	s	file:
+rpchook_t::dest	co_hook_sys_call.cc	/^    struct sockaddr dest;$/;"	m	struct:rpchook_t	typeref:struct:rpchook_t::sockaddr	file:	access:public
+rpchook_t::domain	co_hook_sys_call.cc	/^    int domain; \/\/AF_LOCAL,AF_INET$/;"	m	struct:rpchook_t	file:	access:public
+rpchook_t::read_timeout	co_hook_sys_call.cc	/^    struct timeval read_timeout;$/;"	m	struct:rpchook_t	typeref:struct:rpchook_t::timeval	file:	access:public
+rpchook_t::user_flag	co_hook_sys_call.cc	/^    int user_flag;  \/\/里面记录用户自己设置的选项$/;"	m	struct:rpchook_t	file:	access:public
+rpchook_t::write_timeout	co_hook_sys_call.cc	/^    struct timeval write_timeout;$/;"	m	struct:rpchook_t	typeref:struct:rpchook_t::timeval	file:	access:public
+s1	coctx.h	/^    const void * s1;$/;"	m	struct:coctx_param_t	access:public
+s2	coctx.h	/^    const void * s2;$/;"	m	struct:coctx_param_t	access:public
+sReserved	co_hook_sys_call.cc	/^    unsigned char sReserved[6];$/;"	m	struct:rpchook_connagent_head_t	file:	access:public
+s_sys__poll_func	co_hook_sys_call.cc	/^static __poll_pfn_t s_sys__poll_func = (__poll_pfn_t)dlsym(RTLD_NEXT,"__poll");$/;"	v	file:
+save_buffer	co_routine_inner.h	/^    char* save_buffer;  \/\/协程切换时，它的上下文会被保存到该成员指向的那一块空间中去$/;"	m	struct:stCoRoutine_t	access:public
+save_size	co_routine_inner.h	/^    unsigned int save_size; $/;"	m	struct:stCoRoutine_t	access:public
+save_stack_buffer	co_routine.cc	/^void save_stack_buffer(stCoRoutine_t* occupy_co){$/;"	f	signature:(stCoRoutine_t* occupy_co)
+send	co_hook_sys_call.cc	/^ssize_t send(int socket,const void* buffer,int length,int flags){$/;"	f	signature:(int socket,const void* buffer,int length,int flags)
+send_pfn_t	co_hook_sys_call.cc	/^typedef ssize_t (* send_pfn_t)(int socket,const void* message,size_t length,int flags);$/;"	t	file:
+sendto	co_hook_sys_call.cc	/^ssize_t sendto(int socket,const void* message,size_t length,int flags,const struct sockaddr* dest_addr,socklen_t dest_len){$/;"	f	signature:(int socket,const void* message,size_t length,int flags,const struct sockaddr* dest_addr,socklen_t dest_len)
+sendto_pfn_t	co_hook_sys_call.cc	/^typedef ssize_t (* sendto_pfn_t)(int socket,const void* message,size_t length,int flags,const struct sockaddr* dest_addr,socklen_t dest_len);$/;"	t	file:
+setenv	co_hook_sys_call.cc	/^int setenv(const char* n,const char* value,int overwrite){$/;"	f	signature:(const char* n,const char* value,int overwrite)
+setenv_pfn_t	co_hook_sys_call.cc	/^typedef int (* setenv_pfn_t)(const char* name,const char* value,int overwrite);$/;"	t	file:
+setsockopt	co_hook_sys_call.cc	/^int setsockopt(int fd,int level,int option_name,const void* option_value,socklen_t option_len){$/;"	f	signature:(int fd,int level,int option_name,const void* option_value,socklen_t option_len)
+setsockopt_pfn_t	co_hook_sys_call.cc	/^typedef int (* setsockopt_pfn_t)(int socket,int level,int option_name,const void* option_value,socklen_t option_len);$/;"	t	file:
+share_stack	co_routine.h	/^    stShareStack_t* share_stack;$/;"	m	struct:stCoRoutineAttr_t	access:public
+size	co_epoll.h	/^    int size;$/;"	m	struct:co_epoll_res	access:public
+size	co_routine.cc	/^        size = 1024$/;"	e	enum:stHookPThreadSpec_t::__anon4	file:
+socket	co_hook_sys_call.cc	/^int socket(int domain,int type,int protocol){$/;"	f	signature:(int domain,int type,int protocol)
+socket_pfn_t	co_hook_sys_call.cc	/^typedef int(* socket_pfn_t)(int domain,int type,int protocol);$/;"	t	file:
+ss_size	coctx.h	/^    size_t ss_size; \/\/栈的大小$/;"	m	struct:coctx_t	access:public
+ss_sp	coctx.h	/^    char * ss_sp;$/;"	m	struct:coctx_t	access:public
+stCoCondItem_t	co_routine.cc	/^struct stCoCondItem_t{$/;"	s	file:
+stCoCondItem_t::pLink	co_routine.cc	/^    stCoCond_t* pLink;$/;"	m	struct:stCoCondItem_t	file:	access:public
+stCoCondItem_t::pNext	co_routine.cc	/^    stCoCondItem_t* pNext;$/;"	m	struct:stCoCondItem_t	file:	access:public
+stCoCondItem_t::pPrev	co_routine.cc	/^    stCoCondItem_t* pPrev;$/;"	m	struct:stCoCondItem_t	file:	access:public
+stCoCondItem_t::timeout	co_routine.cc	/^    stTimeoutItem_t timeout;$/;"	m	struct:stCoCondItem_t	file:	access:public
+stCoCond_t	co_routine.cc	/^struct stCoCond_t{$/;"	s	file:
+stCoCond_t::head	co_routine.cc	/^    stCoCondItem_t* head;$/;"	m	struct:stCoCond_t	file:	access:public
+stCoCond_t::tail	co_routine.cc	/^    stCoCondItem_t* tail;$/;"	m	struct:stCoCond_t	file:	access:public
+stCoEpoll_t	co_routine.cc	/^struct stCoEpoll_t{$/;"	s	file:
+stCoEpoll_t::_EPOLL_SIZE	co_routine.cc	/^    static const int _EPOLL_SIZE = 1024 * 10;  \/\/epoll_wait最多可以返回的就绪事件个数$/;"	m	struct:stCoEpoll_t	file:	access:public
+stCoEpoll_t::iEpollFd	co_routine.cc	/^    int iEpollFd;  \/\/epoll的文件描述符$/;"	m	struct:stCoEpoll_t	file:	access:public
+stCoEpoll_t::pTimeout	co_routine.cc	/^    struct stTimeout_t* pTimeout;\/\/时间轮$/;"	m	struct:stCoEpoll_t	typeref:struct:stCoEpoll_t::stTimeout_t	file:	access:public
+stCoEpoll_t::pstActiveList	co_routine.cc	/^    struct stTimeoutItemLink_t* pstActiveList;  \/\/用于存放epoll_wait返回的就绪事件和定时器的超时事件$/;"	m	struct:stCoEpoll_t	typeref:struct:stCoEpoll_t::stTimeoutItemLink_t	file:	access:public
+stCoEpoll_t::pstTimeoutList	co_routine.cc	/^    struct stTimeoutItemLink_t* pstTimeoutList; \/\/临时存放定时器的超时事件$/;"	m	struct:stCoEpoll_t	typeref:struct:stCoEpoll_t::stTimeoutItemLink_t	file:	access:public
+stCoEpoll_t::result	co_routine.cc	/^    co_epoll_res* result; \/\/epoll返回的结果存储在这里$/;"	m	struct:stCoEpoll_t	file:	access:public
+stCoRoutineAttr_t	co_routine.h	/^    stCoRoutineAttr_t(){$/;"	f	struct:stCoRoutineAttr_t	access:public	signature:()
+stCoRoutineAttr_t	co_routine.h	/^struct stCoRoutineAttr_t{$/;"	s
+stCoRoutineAttr_t::share_stack	co_routine.h	/^    stShareStack_t* share_stack;$/;"	m	struct:stCoRoutineAttr_t	access:public
+stCoRoutineAttr_t::stCoRoutineAttr_t	co_routine.h	/^    stCoRoutineAttr_t(){$/;"	f	struct:stCoRoutineAttr_t	access:public	signature:()
+stCoRoutineAttr_t::stack_size	co_routine.h	/^    int stack_size;  \/\/如果协程使用共享栈的话这个成员的值就不需要指定$/;"	m	struct:stCoRoutineAttr_t	access:public
+stCoRoutineEnv_t	co_routine.cc	/^struct stCoRoutineEnv_t{$/;"	s	file:
+stCoRoutineEnv_t::iCallStackSize	co_routine.cc	/^    int iCallStackSize; \/\/当前正在运行的协程在调用栈的位置$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+stCoRoutineEnv_t::occupy_co	co_routine.cc	/^    stCoRoutine_t* occupy_co; \/\/以前使用共享栈的协程$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+stCoRoutineEnv_t::pCallStack	co_routine.cc	/^    stCoRoutine_t* pCallStack[128];$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+stCoRoutineEnv_t::pEpoll	co_routine.cc	/^    stCoEpoll_t* pEpoll; \/\/协程调度器$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+stCoRoutineEnv_t::pending_co	co_routine.cc	/^    stCoRoutine_t* pending_co;\/\/记录要抢占对于共享栈的协程$/;"	m	struct:stCoRoutineEnv_t	file:	access:public
+stCoRoutine_t	co_routine_inner.h	/^struct stCoRoutine_t{$/;"	s
+stCoRoutine_t::aSpec	co_routine_inner.h	/^    stCoSpec_t aSpec[1024];$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::arg	co_routine_inner.h	/^    void * arg;$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::cEnableSysHook	co_routine_inner.h	/^    char cEnableSysHook; \/\/是否被hook$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::cEnd	co_routine_inner.h	/^    char cEnd;    \/\/是否已经结束$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::cIsMain	co_routine_inner.h	/^    char cIsMain; \/\/是否是主协程$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::cIsShareStack	co_routine_inner.h	/^    char cIsShareStack;  \/\/是否使用共享栈$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::cStart	co_routine_inner.h	/^    char cStart;  \/\/是否开始运行$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::ctx	co_routine_inner.h	/^    coctx_t ctx; \/\/协程的上下文$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::env	co_routine_inner.h	/^    stCoRoutineEnv_t* env;  \/\/该协程归那一个调度器管$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::pfn	co_routine_inner.h	/^    pfn_co_routine_t pfn;$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::pvEnv	co_routine_inner.h	/^    void* pvEnv; \/\/用于保存程序系统环境变量的指针$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::save_buffer	co_routine_inner.h	/^    char* save_buffer;  \/\/协程切换时，它的上下文会被保存到该成员指向的那一块空间中去$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::save_size	co_routine_inner.h	/^    unsigned int save_size; $/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::stack_mem	co_routine_inner.h	/^    stStackMem_t* stack_mem;  \/\/协程的运行栈$/;"	m	struct:stCoRoutine_t	access:public
+stCoRoutine_t::stack_sp	co_routine_inner.h	/^    char* stack_sp;  \/\/应该表示的是运行时栈帧的的栈顶位置，在进行切换时会用到$/;"	m	struct:stCoRoutine_t	access:public
+stCoSpec_t	co_routine_inner.h	/^struct stCoSpec_t{$/;"	s
+stCoSpec_t::value	co_routine_inner.h	/^    void * value;$/;"	m	struct:stCoSpec_t	access:public
+stCoSysEnvArr_t	co_hook_sys_call.cc	/^struct stCoSysEnvArr_t{$/;"	s	file:
+stCoSysEnvArr_t::cnt	co_hook_sys_call.cc	/^    size_t cnt;$/;"	m	struct:stCoSysEnvArr_t	file:	access:public
+stCoSysEnvArr_t::data	co_hook_sys_call.cc	/^    stCoSysEnv_t* data;$/;"	m	struct:stCoSysEnvArr_t	file:	access:public
+stCoSysEnv_t	co_hook_sys_call.cc	/^struct stCoSysEnv_t{$/;"	s	file:
+stCoSysEnv_t::name	co_hook_sys_call.cc	/^    char* name;$/;"	m	struct:stCoSysEnv_t	file:	access:public
+stCoSysEnv_t::value	co_hook_sys_call.cc	/^    char* value;$/;"	m	struct:stCoSysEnv_t	file:	access:public
+stEnv_t	tests/example_cond.cc	/^struct stEnv_t{$/;"	s	file:
+stEnv_t::cond	tests/example_cond.cc	/^    stCoCond_t* cond; \/\/条件变量$/;"	m	struct:stEnv_t	file:	access:public
+stEnv_t::task_queue	tests/example_cond.cc	/^    queue<stTask_t*> task_queue;$/;"	m	struct:stEnv_t	file:	access:public
+stEvent	co_routine.cc	/^    struct epoll_event stEvent; \/\/该成员会在调用epoll_ctl时，被用作第三个参数$/;"	m	struct:stPollItem_t	typeref:struct:stPollItem_t::epoll_event	file:	access:public
+stHookPThreadSpec_t	co_routine.cc	/^struct stHookPThreadSpec_t{$/;"	s	file:
+stHookPThreadSpec_t::co	co_routine.cc	/^    stCoRoutine_t* co;$/;"	m	struct:stHookPThreadSpec_t	file:	access:public
+stHookPThreadSpec_t::size	co_routine.cc	/^        size = 1024$/;"	e	enum:stHookPThreadSpec_t::__anon4	file:
+stHookPThreadSpec_t::value	co_routine.cc	/^    void* value;$/;"	m	struct:stHookPThreadSpec_t	file:	access:public
+stPollItem_t	co_routine.cc	/^struct stPollItem_t : public stTimeoutItem_t{$/;"	s	file:	inherits:stTimeoutItem_t
+stPollItem_t::pPoll	co_routine.cc	/^    stPoll_t* pPoll;$/;"	m	struct:stPollItem_t	file:	access:public
+stPollItem_t::pSelf	co_routine.cc	/^    struct pollfd* pSelf;$/;"	m	struct:stPollItem_t	typeref:struct:stPollItem_t::pollfd	file:	access:public
+stPollItem_t::stEvent	co_routine.cc	/^    struct epoll_event stEvent; \/\/该成员会在调用epoll_ctl时，被用作第三个参数$/;"	m	struct:stPollItem_t	typeref:struct:stPollItem_t::epoll_event	file:	access:public
+stPoll_t	co_routine.cc	/^struct stPoll_t : public stTimeoutItem_t{$/;"	s	file:	inherits:stTimeoutItem_t
+stPoll_t::fds	co_routine.cc	/^    struct pollfd* fds;$/;"	m	struct:stPoll_t	typeref:struct:stPoll_t::pollfd	file:	access:public
+stPoll_t::iAllEventDetach	co_routine.cc	/^    int iAllEventDetach;    \/\/表示该对象是否已经被处理过$/;"	m	struct:stPoll_t	file:	access:public
+stPoll_t::iEpollFd	co_routine.cc	/^    int iEpollFd;$/;"	m	struct:stPoll_t	file:	access:public
+stPoll_t::iRaiseCnt	co_routine.cc	/^    int iRaiseCnt; \/\/prepare函数的调用次数$/;"	m	struct:stPoll_t	file:	access:public
+stPoll_t::nfds	co_routine.cc	/^    nfds_t nfds; \/\/unsigned long int$/;"	m	struct:stPoll_t	file:	access:public
+stPoll_t::pPollItems	co_routine.cc	/^    stPollItem_t* pPollItems;$/;"	m	struct:stPoll_t	file:	access:public
+stShareStack_t	co_routine_inner.h	/^struct stShareStack_t{$/;"	s
+stShareStack_t::alloc_idx	co_routine_inner.h	/^    unsigned int alloc_idx; $/;"	m	struct:stShareStack_t	access:public
+stShareStack_t::count	co_routine_inner.h	/^    int count; \/\/栈帧的数目$/;"	m	struct:stShareStack_t	access:public
+stShareStack_t::stack_array	co_routine_inner.h	/^    stStackMem_t** stack_array;$/;"	m	struct:stShareStack_t	access:public
+stShareStack_t::stack_size	co_routine_inner.h	/^    int stack_size; \/\/每一个小的栈帧的大小$/;"	m	struct:stShareStack_t	access:public
+stStackMem_t	co_routine_inner.h	/^struct stStackMem_t{$/;"	s
+stStackMem_t::occupy_co	co_routine_inner.h	/^    stCoRoutine_t* occupy_co; \/\/当前正在使用该栈帧的协程$/;"	m	struct:stStackMem_t	access:public
+stStackMem_t::stack_bp	co_routine_inner.h	/^    char * stack_bp;  \/\/栈的底部$/;"	m	struct:stStackMem_t	access:public
+stStackMem_t::stack_buffer	co_routine_inner.h	/^    char * stack_buffer; \/\/栈的顶部$/;"	m	struct:stStackMem_t	access:public
+stStackMem_t::stack_size	co_routine_inner.h	/^    int stack_size;$/;"	m	struct:stStackMem_t	access:public
+stTask_t	tests/example_cond.cc	/^struct stTask_t{$/;"	s	file:
+stTask_t::id	tests/example_cond.cc	/^    int id;$/;"	m	struct:stTask_t	file:	access:public
+stTimeoutItemLink_t	co_routine.cc	/^struct stTimeoutItemLink_t{$/;"	s	file:
+stTimeoutItemLink_t::head	co_routine.cc	/^    stTimeoutItem_t* head;$/;"	m	struct:stTimeoutItemLink_t	file:	access:public
+stTimeoutItemLink_t::tail	co_routine.cc	/^    stTimeoutItem_t* tail;$/;"	m	struct:stTimeoutItemLink_t	file:	access:public
+stTimeoutItem_t	co_routine.cc	/^struct stTimeoutItem_t{$/;"	s	file:
+stTimeoutItem_t::bTimeout	co_routine.cc	/^    bool bTimeout;\/\/是否$/;"	m	struct:stTimeoutItem_t	file:	access:public
+stTimeoutItem_t::eMaxTimeout	co_routine.cc	/^        eMaxTimeout = 40 * 1000 \/\/40s$/;"	e	enum:stTimeoutItem_t::__anon3	file:
+stTimeoutItem_t::pArg	co_routine.cc	/^    void* pArg;\/\/以上两个函数的参数$/;"	m	struct:stTimeoutItem_t	file:	access:public
+stTimeoutItem_t::pLink	co_routine.cc	/^    stTimeoutItemLink_t* pLink; \/\/属于哪一条链表$/;"	m	struct:stTimeoutItem_t	file:	access:public
+stTimeoutItem_t::pNext	co_routine.cc	/^    stTimeoutItem_t* pNext;$/;"	m	struct:stTimeoutItem_t	file:	access:public
+stTimeoutItem_t::pPrev	co_routine.cc	/^    stTimeoutItem_t* pPrev;$/;"	m	struct:stTimeoutItem_t	file:	access:public
+stTimeoutItem_t::pfnPrepare	co_routine.cc	/^    onPreparePfn_t pfnPrepare; \/\/预处理函数$/;"	m	struct:stTimeoutItem_t	file:	access:public
+stTimeoutItem_t::pfnProcess	co_routine.cc	/^    onProcessPfn_t pfnProcess; \/\/处理函数$/;"	m	struct:stTimeoutItem_t	file:	access:public
+stTimeoutItem_t::ullExpireTime	co_routine.cc	/^    unsigned long long ullExpireTime; \/\/超时时间$/;"	m	struct:stTimeoutItem_t	file:	access:public
+stTimeout_t	co_routine.cc	/^struct stTimeout_t{$/;"	s	file:
+stTimeout_t::iItemSize	co_routine.cc	/^    int iItemSize; \/\/默认是60 * 1000$/;"	m	struct:stTimeout_t	file:	access:public
+stTimeout_t::llStartIdx	co_routine.cc	/^    long long llStartIdx;\/\/时间轮的指向$/;"	m	struct:stTimeout_t	file:	access:public
+stTimeout_t::pItems	co_routine.cc	/^    stTimeoutItemLink_t* pItems;$/;"	m	struct:stTimeout_t	file:	access:public
+stTimeout_t::ullStart	co_routine.cc	/^    unsigned long long ullStart;\/\/开始时间,也代表最早超时的时间$/;"	m	struct:stTimeout_t	file:	access:public
+stack_array	co_routine_inner.h	/^    stStackMem_t** stack_array;$/;"	m	struct:stShareStack_t	access:public
+stack_bp	co_routine_inner.h	/^    char * stack_bp;  \/\/栈的底部$/;"	m	struct:stStackMem_t	access:public
+stack_buffer	co_routine_inner.h	/^    char * stack_buffer; \/\/栈的顶部$/;"	m	struct:stStackMem_t	access:public
+stack_mem	co_routine_inner.h	/^    stStackMem_t* stack_mem;  \/\/协程的运行栈$/;"	m	struct:stCoRoutine_t	access:public
+stack_size	co_routine.h	/^    int stack_size;  \/\/如果协程使用共享栈的话这个成员的值就不需要指定$/;"	m	struct:stCoRoutineAttr_t	access:public
+stack_size	co_routine_inner.h	/^    int stack_size; \/\/每一个小的栈帧的大小$/;"	m	struct:stShareStack_t	access:public
+stack_size	co_routine_inner.h	/^    int stack_size;$/;"	m	struct:stStackMem_t	access:public
+stack_sp	co_routine_inner.h	/^    char* stack_sp;  \/\/应该表示的是运行时栈帧的的栈顶位置，在进行切换时会用到$/;"	m	struct:stCoRoutine_t	access:public
+state	co_hook_sys_call.cc	/^    struct __res_state state;$/;"	m	struct:res_state_wrap	typeref:struct:res_state_wrap::__res_state	file:	access:public
+tail	co_routine.cc	/^    stCoCondItem_t* tail;$/;"	m	struct:stCoCond_t	file:	access:public
+tail	co_routine.cc	/^    stTimeoutItem_t* tail;$/;"	m	struct:stTimeoutItemLink_t	file:	access:public
+task_queue	tests/example_cond.cc	/^    queue<stTask_t*> task_queue;$/;"	m	struct:stEnv_t	file:	access:public
+timeout	co_routine.cc	/^    stTimeoutItem_t timeout;$/;"	m	struct:stCoCondItem_t	file:	access:public
+u32	co_epoll.h	/^    uint32_t u32;$/;"	m	union:epoll_data	access:public
+u64	co_epoll.h	/^    uint64_t u64;$/;"	m	union:epoll_data	access:public
+ullExpireTime	co_routine.cc	/^    unsigned long long ullExpireTime; \/\/超时时间$/;"	m	struct:stTimeoutItem_t	file:	access:public
+ullStart	co_routine.cc	/^    unsigned long long ullStart;\/\/开始时间,也代表最早超时的时间$/;"	m	struct:stTimeout_t	file:	access:public
+unsetenv	co_hook_sys_call.cc	/^int unsetenv(const char* n){$/;"	f	signature:(const char* n)
+unsetenv_pfn_t	co_hook_sys_call.cc	/^typedef int (* unsetenv_pfn_t)(const char* name);$/;"	t	file:
+user_flag	co_hook_sys_call.cc	/^    int user_flag;  \/\/里面记录用户自己设置的选项$/;"	m	struct:rpchook_t	file:	access:public
+value	co_hook_sys_call.cc	/^    char* value;$/;"	m	struct:stCoSysEnv_t	file:	access:public
+value	co_routine.cc	/^    void* value;$/;"	m	struct:stHookPThreadSpec_t	file:	access:public
+value	co_routine_inner.h	/^    void * value;$/;"	m	struct:stCoSpec_t	access:public
+volatile	build/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c	11;"	d	file:
+write	co_hook_sys_call.cc	/^ssize_t write(int fd,void* buf,size_t nbyte){$/;"	f	signature:(int fd,void* buf,size_t nbyte)
+write_pfn_t	co_hook_sys_call.cc	/^typedef ssize_t (* write_pfn_t)(int fildes,const void* buf,size_t nbyte);$/;"	t	file:
+write_timeout	co_hook_sys_call.cc	/^    struct timeval write_timeout;$/;"	m	struct:rpchook_t	typeref:struct:rpchook_t::timeval	file:	access:public
+~clsCoMutex	co_comm.cc	/^clsCoMutex::~clsCoMutex(){$/;"	f	class:clsCoMutex	signature:()
+~clsCoMutex	co_comm.h	/^    ~clsCoMutex();$/;"	p	class:clsCoMutex	access:public	signature:()
+~clsSmartLock	co_comm.h	/^    ~clsSmartLock(){ m_ptMutex->CoUnLock(); }$/;"	f	class:clsSmartLock	access:public	signature:()
