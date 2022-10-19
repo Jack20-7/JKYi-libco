@@ -1,11 +1,13 @@
 #include"../co_routine.h"
+#include"../co_routine_inner.h"
 
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdint.h>
+#include<string.h>
 #include<stack>
 #include<sys/socket.h>
-#include<netient/in.h>
+#include<netinet/in.h>
 #include<fcntl.h>
 #include<arpa/inet.h>
 #include<errno.h>
@@ -69,17 +71,77 @@ static int CreateTcpSocket(const unsigned short shPort = 0,const char* pszIP = "
     return fd;
 }
 
+//该函数主要要做的事情就是
+//1.根据传入的服务器IP + port，向他发起连接，并初始化task_t
+//2.在while循环中，通过poll对他们的写事件进行监听，然后对没有发生写事件的socket进行重新的注册
+static void* poll_routine(void* arg){
+    co_enable_hook_sys();
+
+    vector<task_t>& v = *(vector<task_t>*)arg;
+    for(size_t i = 0;i < v.size();++i){
+        int fd = CreateTcpSocket();
+        SetNonBlock(fd);
+        v[i].fd = fd;
+        //
+        int ret = connect(fd,(struct sockaddr*)&v[i].addr,sizeof(v[i].addr));
+        printf("co %p connect i %ld ret %d errno (%s)\n",co_self(),i,ret,strerror(errno));
+    }
+    struct pollfd* pf = (struct pollfd*)calloc(1,sizeof(struct pollfd) * v.size());
+    for(size_t i = 0;i < v.size();++i){
+        pf[i].fd = v[i].fd;
+        pf[i].events = (POLLOUT | POLLERR | POLLHUP);
+    }
+    set<int> setRaiseFds;
+    size_t iWaitCnt = v.size();
+    for(;;){
+        int ret = poll(pf,iWaitCnt,1000);
+        printf("co %p poll wait %ld ret %d\n",co_self,iWaitCnt,ret);
+        for(int i = 0;i < ret;++i){
+            printf("co %p fire fd %d revents 0x%x POLLOUT 0x%X POLLERR 0x%X POLLHUP 0x%X\n",
+                      co_self(),
+                      pf[i].fd,
+                      pf[i].revents,
+                      POLLOUT,
+                      POLLERR,
+                      POLLHUP);
+            setRaiseFds.insert(pf[i].fd);
+        }
+        if(setRaiseFds.size() == v.size()){
+            break;
+        }
+        if(ret <= 0){
+            break;
+        }
+        iWaitCnt = 0;
+        for(size_t i = 0;i < v.size();++i){
+            if(setRaiseFds.find(v[i].fd) == setRaiseFds.end()){
+                pf[iWaitCnt].fd = v[i].fd;
+                pf[iWaitCnt].events = (POLLOUT | POLLERR | POLLHUP);
+                ++iWaitCnt;
+            }
+        }
+    }
+    for(size_t i = 0;i < v.size();++i){
+        close(v[i].fd);
+        v[i].fd = -1;
+    }
+    printf("co %p task cnt %ld fire %ld\n",co_self(),v.size(),setRaiseFds.size());
+    return 0;
+}
 
 int main(int argc,char** argv){
     
     vector<task_t> v;
     for(int i = 1;i < argc;i += 2){
         task_t task = {0};
-        SetAddr(argv[1],atoi(argv[i + 1]),task.addr);
+        SetAddr(argv[i],atoi(argv[i + 1]),task.addr);
         v.push_back(task);
     }
+
     printf("------------------------main----------------------\n");
     vector<task_t> v2 = v;
+
+    //本次调用时由于没有对stCoRoutineEnv_t进行初始话，所以就是普通的调用
     poll_routine(&v2);
     printf("-----------------------routine--------------------\n");
 

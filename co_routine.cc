@@ -632,6 +632,7 @@ void OnPollProcessEvent(stTimeoutItem_t* ap){
 //挂起的协程的预处理函数
 void OnPollPreparePfn(stTimeoutItem_t* ap,struct epoll_event& e,stTimeoutItemLink_t* active){
     stPollItem_t* lp = (stPollItem_t*)ap;
+    //将实际发生的事件设置到绑定的stPoll_t里面的那个epoll_event里面去
     lp->pSelf->revents = EpollEvent2Poll(e.events);
 
     stPoll_t* lPoll = lp->pPoll;
@@ -665,6 +666,7 @@ void co_eventloop(stCoEpoll_t* ctx,pfn_co_eventloop_t pfn,void* arg){
       for(int i = 0;i < ret;++i){
           stTimeoutItem_t* item = (stTimeoutItem_t*)result->events[i].data.ptr;
           if(item->pfnPrepare){
+              //IO事件
               item->pfnPrepare(item,result->events[i],active);
           }else{
               AddTail(active,item);
