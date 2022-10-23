@@ -42,7 +42,7 @@ coctx_swap:
 
    xorl %eax,%eax
 
-   ret
+   ret  //弹出栈中的返回值，然后跳转到对于位置去进行执行.所以可以看出这里通过修改ret来修改寄存器%rip的值，从而实现逻辑跳转的目的.%rip的值不能够直接进行修改，只能够通过call/ret间接修改
 #elif defined(__x86_64__)
    //如果是64位的系统
 
@@ -92,7 +92,7 @@ coctx_swap:
 
    xorl %eax,%eax //寄存器清零，相当于就是return 0
 
-   ret
+   ret  
 
 #endif
 

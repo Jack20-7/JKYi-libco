@@ -6,7 +6,7 @@
 #include<vector>
 #include<iostream>
 
-//对specific进行测试
+//对协程局部变量进行测试
 
 struct stRoutineArgs_t{
     stCoRoutine_t* co;
@@ -14,7 +14,7 @@ struct stRoutineArgs_t{
 };
 
 struct stRoutineSpecificData_t{
-    int idx;
+    long idx;
 };
 
 CO_ROUTINE_SPECIFIC(stRoutineSpecificData_t,__routine);
@@ -29,8 +29,9 @@ void* RoutineFunc(void* args){
     }
     return NULL;
 }
+
 int main(int argc,char** argv){
-    stRoutineArgs_t args[0];
+    stRoutineArgs_t args[10];
     for(int i = 0;i < 10;++i){
         args[i].routine_id = i;
         co_create(&args[i].co,NULL,RoutineFunc,(void*)&args[i]);

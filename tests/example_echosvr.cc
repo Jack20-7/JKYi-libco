@@ -62,6 +62,7 @@ static void* readwrite_routine(void* arg){
             
             //当注册的事件发生或者超时时，resume回来
             int ret = read(fd,buf,sizeof(buf));
+            printf("%s\n",buf);
             if(ret > 0){
                 ret = write(fd,buf,ret);
             }
@@ -94,8 +95,7 @@ static void* accept_routine(void* arg){
         struct sockaddr_in addr;
         memset(&addr,0,sizeof(addr));
         socklen_t len = sizeof(addr);
-        int fd = co_accept(g_listen_fd,(struct sockaddr*)&addr,&len);
-        printf("co_accept ret = %d\n",fd);
+        int fd = co_accept(g_listen_fd,(struct sockaddr*)&addr,&len);  //库中并没有对accept函数进行hook
         if(fd < 0){
             //accept失败
             struct pollfd pf = {0};

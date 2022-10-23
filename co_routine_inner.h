@@ -49,6 +49,7 @@ struct stCoRoutine_t{
     unsigned int save_size; 
     char* save_buffer;  //协程切换时，它的上下文会被保存到该成员指向的那一块空间中去
 
+    //用来实现协程局部变量
     stCoSpec_t aSpec[1024];
 };
 

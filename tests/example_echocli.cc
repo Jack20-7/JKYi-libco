@@ -110,6 +110,7 @@ static void* readwrite_routine(void* arg){
                 fd = -1;
                 AddFailCnt();
             }else{
+                printf("read %s\n",buf);
                 AddSuccCnt();
             }
         }else{

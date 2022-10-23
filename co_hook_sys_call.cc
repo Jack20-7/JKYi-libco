@@ -72,6 +72,8 @@ typedef int (* pthread_setspecific_pfn_t)(pthread_key_t key,const void* value);
 typedef int (* setenv_pfn_t)(const char* name,const char* value,int overwrite);
 typedef int (* unsetenv_pfn_t)(const char* name);
 typedef char* (* getenv_pfn_t)(const char* name);
+
+//为了对gethostbyname进行hook
 typedef hostent* (* gethostbyname_pfn_t)(const char* name);
 typedef res_state(* __res_state_pfn_t)();
 typedef int (* __poll_pfn_t)(struct pollfd fds[],nfds_t nfds,int timeout);
