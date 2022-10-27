@@ -18,10 +18,8 @@
 #include<stdint.h>
 #include<stdarg.h>
 #include<pthread.h>
-
 #include<resolv.h>
 #include<netdb.h>
-
 #include<time.h>
 #include<map>
 
@@ -32,11 +30,13 @@
 
 typedef long long ll64_t;
 
+//对于每一个被hook住的socket，都有一个该结构体与之对于。在调用socket和accept时会创建好
 struct rpchook_t{
     int user_flag;  //里面记录用户自己设置的选项
     struct sockaddr dest;
     int domain; //AF_LOCAL,AF_INET
 
+    //超时时间
     struct timeval read_timeout;
     struct timeval write_timeout;
 };
@@ -49,6 +49,7 @@ static inline pid_t GetPid(){
 //对每一个fd对应socket相关信息进行记录
 static rpchook_t* g_rpchook_socket_fd[102400] = {0};
 
+//要注意的就是accept并没有被hook,而是单独提供的一个叫做co_accept的函数，里面就是直接对accept进行调用
 typedef int(* socket_pfn_t)(int domain,int type,int protocol);
 typedef int(* connect_pfn_t)(int socket,const struct sockaddr* address,socklen_t address_len);
 typedef int(* close_pfn_t)(int fd);
@@ -180,7 +181,7 @@ int socket(int domain,int type,int protocol){
     rpchook_t* lp = alloc_by_fd(fd);
     lp->domain = domain;
 
-    //这里应该涉及到将socket设置为非阻塞
+    //这里应该涉及到将socket设置为非阻塞,自动设置的非阻塞不会记录到对于的rpchook_t里面的flag上面去
     fcntl(fd,F_SETFL,g_sys_fcntl_func(fd,F_GETFL,0));
 
     return fd;
@@ -308,7 +309,7 @@ ssize_t write(int fd,void* buf,size_t nbyte){
     size_t wrotelen = 0; 
     int timeout = (lp->write_timeout.tv_sec * 1000) + ( lp->write_timeout.tv_usec / 1000);
 
-    ssize_t writeret = g_sys_write_func(fd,buf,nbyte);
+    ssize_t writeret = g_sys_write_func(fd,(const char*)buf,nbyte);
     if(writeret == 0){
         return writeret;
     }
@@ -454,11 +455,47 @@ extern int co_poll_inner(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int ti
 //TODO
 int poll(struct pollfd fds[],nfds_t nfds,int timeout){
     HOOK_SYS_FUNC(poll);
-    if(!co_is_enable_sys_hook()){
+    if(!co_is_enable_sys_hook() || timeout == 0){
         return g_sys_poll_func(fds,nfds,timeout);
     }
-    //
-    return co_poll_inner(co_get_epoll_ct(),fds,nfds,timeout,g_sys_poll_func);
+    
+    struct pollfd* fds_merge = NULL;
+    nfds_t nfds_merge = 0;
+    std::map<int,int> m; //完成fd -> idx的映射
+    std::map<int,int>::iterator it;
+
+    if(nfds > 1){
+        fds_merge = (struct pollfd*)malloc(sizeof(struct pollfd) * nfds);
+        for(size_t i = 0;i < nfds;++i){
+            if((it = m.find(fds[i].fd)) == m.end()){
+                //没出现重复的
+                fds_merge[nfds_merge] = fds[i];
+                m[fds[i].fd] = nfds_merge;
+                nfds_merge++;
+            }else{
+                //出现重复了的话
+                int j = it->second;
+                fds_merge[j].events |= fds[i].events;
+            }
+        }
+    }
+    int ret = 0;
+    if(nfds_merge == nfds || nfds == 1){
+        ret = co_poll_inner(co_get_epoll_ct(),fds,nfds,timeout,g_sys_poll_func);
+    }else{
+        ret = co_poll_inner(co_get_epoll_ct(),fds_merge,nfds_merge,timeout,g_sys_poll_func);
+        if(ret > 0){
+            for(size_t i = 0;i < nfds;++i){
+                it = m.find(fds[i].fd);
+                if(it != m.end()){
+                    int j = it->second;
+                    fds[i].revents = fds_merge[j].revents & fds[i].events;
+                }
+            }
+        }
+    }
+    free(fds_merge);
+    return ret;
 }
 
 int setsockopt(int fd,int level,int option_name,const void* option_value,socklen_t option_len){
@@ -513,6 +550,9 @@ int fcntl(int fildes,int cmd,...){
         case F_GETFL:
             {
                 ret = g_sys_fcntl_func(fildes,cmd);
+                if(lp && !(lp->user_flag & O_NONBLOCK)){
+                    ret = ret & (~O_NONBLOCK);
+                }
                 break;
             }
         case F_SETFL:
@@ -701,6 +741,34 @@ struct hostent* gethostbyname(const char* name){
     return co_gethostbyname(name);
 #endif
 }
+int co_gethostbyname_r(const char* __restrict name,
+                       struct hostent* __restrict __result_buf,
+                       char* __restrict __buf,size_t __buflen,
+                       struct hostent** __restrict __result,
+                       int* __restrict __h_errnop){
+    static __thread clsCoMutex* tls_leaky_dns_lock = NULL;
+    if(tls_leaky_dns_lock == NULL){
+        tls_leaky_dns_lock = new clsCoMutex();
+    }
+    clsSmartLock auto_lock(tls_leaky_dns_lock);
+    return g_sys_gethostbyname_r_func(name,__result_buf,__buf,__buflen,__result,__h_errnop);
+}
+
+int gethostbyname_r(const char* __restrict name,
+                    struct hostent* __restrict __result_buf,
+                    char* __restrict __buf,size_t __buflen,
+                    struct hostent** __restrict __result,
+                    int* __restrict __h_errnop){
+    HOOK_SYS_FUNC(gethostbyname_r);
+#if defined(__APPLE__) || defined(__FreeBSD__)
+        return g_sys_gethostbyname_r_func(name);
+#else
+    if(!co_is_enable_sys_hook()){
+      return g_sys_gethostbyname_r_func(name,__result_buf,__buf,__buflen,__result,__h_errnop);
+    }
+    return co_gethostbyname_r(name,__result_buf,__buf,__buflen,__result,__h_errnop);
+#endif
+}
 struct res_state_wrap{
     struct __res_state state;
 };
@@ -760,3 +828,10 @@ struct hostent* co_gethostbyname(const char* name){
 }
 #endif
 
+//该函数必须定义在这里，否则本文件会直接会忽略
+void co_enable_hook_sys(){
+    stCoRoutine_t* co = GetCurrThreadCo();
+    if(co){
+        co->cEnableSysHook = 1;
+    }
+}

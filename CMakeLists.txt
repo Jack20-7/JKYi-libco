@@ -13,6 +13,7 @@ set(SOURCE_FILES
       co_routine.cc
       coctx.cc
       coctx_swap.S
+      co_comm.cc
    )
 #生成静态库
 add_library(colib_static STATIC ${SOURCE_FILES})

@@ -941,12 +941,6 @@ void co_disable_hook_sys(){
     }
 }
 
-void co_enable_hook_sys(){
-    stCoRoutine_t* co = co_self();
-    if(co){
-        co->cEnableSysHook = 1;
-    }
-}
 
 //检测是否打开hook功能
 bool co_is_enable_sys_hook(){

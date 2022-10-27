@@ -5,6 +5,7 @@
 
 struct stCoRoutineEnv_t;  //协程管理器
 
+//协程环境变量
 struct stCoSpec_t{
     void * value;
 };

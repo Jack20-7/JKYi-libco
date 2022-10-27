@@ -1,4 +1,4 @@
-#include"commo.h"
+#include"co_comm.h"
 
 clsCoMutex::clsCoMutex(){
     m_ptCondSignal = co_cond_alloc(); 
