@@ -216,7 +216,7 @@ void inline Join(TLink* apLink,TLink* apOther){
     apOther->head = apOther->tail = NULL;
 }
 
-//根据传入的大小分配一个栈
+//根据传入的大小分配一个栈,独有栈的模式下会使用到.该协程库默认使用的就是独有栈，大小是128k
 stStackMem_t* co_alloc_stackmem(unsigned int stack_size){
     stStackMem_t* stack_mem = (stStackMem_t*)malloc(sizeof(struct stStackMem_t));
     stack_mem->occupy_co = NULL;
@@ -227,6 +227,7 @@ stStackMem_t* co_alloc_stackmem(unsigned int stack_size){
     return stack_mem;
 }
 
+//创建一个共享栈管理结构体
 stShareStack_t* co_alloc_sharestack(int count,int stack_size){
     stShareStack_t* share_stack = (stShareStack_t*)malloc(sizeof(struct stShareStack_t));
     share_stack->alloc_idx = 0;
@@ -241,6 +242,7 @@ stShareStack_t* co_alloc_sharestack(int count,int stack_size){
 
     return share_stack;
 }
+//获取一个共享栈
 static stStackMem_t* co_get_stackmem(stShareStack_t* share_stack){
     if(!share_stack){
         return NULL;
@@ -254,6 +256,7 @@ static stStackMem_t* co_get_stackmem(stShareStack_t* share_stack){
 struct stTimeoutItemLink_t; //超时链表
 struct stTimeoutItem_t;   //链表中的元素
 
+//协程调度器
 struct stCoEpoll_t{
     int iEpollFd;  //epoll的文件描述符
     static const int _EPOLL_SIZE = 1024 * 10;  //epoll_wait最多可以返回的就绪事件个数
@@ -270,6 +273,7 @@ typedef void (* onPreparePfn_t)(stTimeoutItem_t*,struct epoll_event& ev,
                                    stTimeoutItemLink_t* active);
 typedef void (* onProcessPfn_t)(stTimeoutItem_t*);
 
+//定时任务
 struct stTimeoutItem_t{
     enum{
         eMaxTimeout = 40 * 1000 //40s
@@ -294,7 +298,7 @@ struct stTimeoutItemLink_t{
     stTimeoutItem_t* tail;
 };
 
-//时间轮,精度是毫秒级的
+//时间轮,精度是毫秒级的.单层级时间轮
 struct stTimeout_t{
     //超时数组，长度默认为60 * 1000,数组中每一项代表一毫秒
     stTimeoutItemLink_t* pItems;

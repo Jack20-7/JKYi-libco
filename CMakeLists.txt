@@ -7,6 +7,10 @@ set(CMAKE_C_FLAGS ${CMAKE_C_FLAGS} -g -fno-strict-aliasing -O2 -Wall -export-dyn
 
 enable_language(C ASM)
 
+include_directories(/usr/local/openssl/include/)
+include_directories(/home/admin/JKYi-libco/)
+link_libraries(/usr/local/openssl/lib64)
+
 set(SOURCE_FILES
       co_epoll.cc
       co_hook_sys_call.cc
@@ -47,6 +51,9 @@ add_example_target(specific)
 add_example_target(setenv)
 add_example_target(echosvr)
 add_example_target(echocli)
+
+add_executable(example_websocket tests/example_websocket.cc)
+target_link_libraries(example_websocket colib_static pthread dl ssl crypto)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

@@ -4,6 +4,7 @@
 #include<stdint.h>
 #include<sys/poll.h>
 #include<pthread.h>
+#include<arpa/inet.h>
 
 struct stCoRoutine_t;
 struct stShareStack_t;
@@ -18,7 +19,6 @@ struct stCoRoutineAttr_t{
         share_stack = NULL;
     }
 }__attribute__((packed)); //取消编译器在编译时采用的优化对齐
-
 struct stCoEpoll_t;
 typedef int (* pfn_co_eventloop_t) (void *);
 typedef void* (* pfn_co_routine_t)(void*);
@@ -30,6 +30,8 @@ void co_yield_ct();
 void co_release(stCoRoutine_t* co);
 
 stCoRoutine_t* co_self();
+int co_accept(int fd,struct sockaddr* addr,socklen_t* len);
+
 
 int co_poll(stCoEpoll_t* ctx,struct pollfd fds[],nfds_t nfds,int timeout_ms);
 void co_eventloop(stCoEpoll_t* ctx,pfn_co_eventloop_t pfn,void* arg);
